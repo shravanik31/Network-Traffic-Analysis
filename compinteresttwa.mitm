@@ -1,0 +1,665 @@
+9251:9:websocket;0:~8:response;1386:6:reason;0:,11:status_code;3:200#13:timestamp_end;17:1701128234.097665^15:timestamp_start;18:1701128234.0963619^8:trailers;0:~7:content;0:,7:headers;1204:776:9:report-to,759:{"endpoints":[{"priority":1,"url":"https://beacons.gcp.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons2.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons3.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://beacons4.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":1,"url":"https://clients2.google.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt2.com/domainreliability/upload-nel","weight":1},{"priority":2,"url":"https://beacons5.gvt3.com/domainreliability/upload-nel","weight":1}],"group":"nel","max_age":300},]116:3:nel,105:{"failure_fraction":1,"include_subdomains":false,"max_age":300,"report_to":"nel","success_fraction":0.25},]57:12:content-type,37:application/javascript; charset=utf-8,]40:4:date,29:Mon, 27 Nov 2023 23:37:14 GMT,]38:6:server,25:Domain Reliability Server,]22:14:content-length,1:0,]24:16:x-xss-protection,1:0,]33:15:x-frame-options,10:SAMEORIGIN,]60:7:alt-svc,46:h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,]]12:http_version;8:HTTP/2.0,}7:request;887:4:path;25:/domainreliability/upload,9:authority;20:beacons.gcp.gvt2.com,6:scheme;5:https,6:method;4:POST,4:port;3:443#4:host;14:192.178.48.227;13:timestamp_end;18:1701128233.9931772^15:timestamp_start;17:1701128233.988779^8:trailers;0:~7:content;270:{"entries":[{"http_response_code":200,"network_changed":false,"protocol":"QUIC","request_age_ms":65308,"request_elapsed_ms":119,"sample_rate":0.05,"server_ip":"142.251.15.94:443","status":"ok","url":"https://www.recaptcha.net/","was_proxied":false}],"reporter":"chrome"},7:headers;324:24:14:content-length,3:270,]51:12:content-type,31:application/json; charset=utf-8,]151:10:user-agent,132:Mozilla/5.0 (Linux; Android 13; sdk_gphone64_arm64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36,]40:15:accept-encoding,17:gzip, deflate, br,]37:15:accept-language,14:en-US,en;q=0.9,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1701128233.988991^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;6177:3:via;0:~19:timestamp_tcp_setup;17:1701128233.790312^7:address;24:14:192.178.48.227;3:443#]19:timestamp_tls_setup;16:1701128233.89052^13:timestamp_end;0:~15:timestamp_start;18:1701128233.7234719^3:sni;20:beacons.gcp.gvt2.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;5625:1684:-----BEGIN CERTIFICATE-----
+MIIErTCCA5WgAwIBAgIQBQnDO42fCkAJTnUJjCGz7jANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMzEwMjMxMTI0MjFaFw0yNDAxMTUx
+MTI0MjBaMBMxETAPBgNVBAMTCGd2dDMuY29tMFkwEwYHKoZIzj0CAQYIKoZIzj0D
+AQcDQgAEYN90TaoXn3bzZKOoq6jz6fXI3vNkT9VCBNxq2lWCmCGMVcb+acBrnaIs
+n2+wne0X1qEO6gxd2SiXs1PgC9MoJKOCApMwggKPMA4GA1UdDwEB/wQEAwIHgDAT
+BgNVHSUEDDAKBggrBgEFBQcDATAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRT1ivO
+cAYc31WAkHtQ6RSN8zhPsDAfBgNVHSMEGDAWgBSKdH+vhc3ulc09nNDiRhTzcTUd
+JzBqBggrBgEFBQcBAQReMFwwJwYIKwYBBQUHMAGGG2h0dHA6Ly9vY3NwLnBraS5n
+b29nL2d0czFjMzAxBggrBgEFBQcwAoYlaHR0cDovL3BraS5nb29nL3JlcG8vY2Vy
+dHMvZ3RzMWMzLmRlcjBFBgNVHREEPjA8gghndnQzLmNvbYIKKi5ndnQzLmNvbYII
+Z3Z0Mi5jb22CCiouZ3Z0Mi5jb22CDiouZ2NwLmd2dDIuY29tMCEGA1UdIAQaMBgw
+CAYGZ4EMAQIBMAwGCisGAQQB1nkCBQMwPAYDVR0fBDUwMzAxoC+gLYYraHR0cDov
+L2NybHMucGtpLmdvb2cvZ3RzMWMzL2ZWSnhiVi1LdG1rLmNybDCCAQQGCisGAQQB
+1nkCBAIEgfUEgfIA8AB3AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0
+AAABi1x+ShUAAAQDAEgwRgIhAL2QHMUmaDY15ferwUWxEr5ucDgfJle9ZBRImwz+
+t91rAiEA5NU1m0XmZMqC3CckEYypEzQ1xuA4opcHK5EVPAaEcpcAdQBIsONr2qZH
+NA/lagL6nTDrHFIBy1bdLIHZu7+rOdiEcwAAAYtcfkoGAAAEAwBGMEQCIASlryZE
+6EaCBuoDSnRsVgIdcGis8KrnTjHIqn8Oc9f7AiAgxDNjvDRqWokRxe8CxcUE77R5
+RbtzerdgPruuQVQuPTANBgkqhkiG9w0BAQsFAAOCAQEAOGNCRlCcJdmiDqvLMyLf
+L0aq8pVxdzg84yPiirBMzeT7lsDLwMl7XlSfCS7bvjqG4FfctBVW9I42gnaVTPbA
+uoeQbpNNrU7BV9Dapet7/Updw6rxchuAhgfphDo2c7l6JtVK++WCmO4YdgJga6+E
+bLRj6zHOGOKjzmiFTHW9Hb11Z5lBUetriD1lMStMQX7H7ytPO5pow6FxidBljHR4
+2Twe/3Eu/F+cdfgYXsZvEFZn3DL89C9O+3eXztqpR3iUyiY9NHf2JcIAy4IsnzhI
+IqjDZekJRqY7ZA6edc3FCU30s1Hi8J6rUvyyVR4Bx/Htr6DhIoai0+2iYrdrQpz1
+Rw==
+-----END CERTIFICATE-----
+,1996:-----BEGIN CERTIFICATE-----
+MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
+CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
+MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
+MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
+Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
+kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
+lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
+BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
+gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
+tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
+DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
+AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
+VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
+CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
+AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
+MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
+A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
+aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
+AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
+cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
+RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
++o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
+PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
+lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
+Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
+z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
+AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
+juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
+1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
+-----END CERTIFICATE-----
+,1927:-----BEGIN CERTIFICATE-----
+MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
+MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
+CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
+OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
+GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
+ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
+iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
+KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
+DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
+j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
+cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
+CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
+iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
+Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
+9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
+BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
+BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
+JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
+MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
+oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
+MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
+AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
+NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
+WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
+9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
++qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
+d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:30feab86-10f0-40fc-8cf1-23b96a5a01c5;8:sockname;25:13:192.168.0.159;5:64837#]8:peername;24:14:192.178.48.227;3:443#]}11:client_conn;497:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;18:1701128233.9825149^13:timestamp_end;0:~15:timestamp_start;17:1701128233.720524^3:sni;20:beacons.gcp.gvt2.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:1e28c513-1077-4f86-80fa-3404f3524659;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64836#]}5:error;0:~2:id;36:0b644682-103f-4b97-acfe-ca3704f3abff;4:type;4:http;7:version;2:20#}1831:9:websocket;0:~8:response;433:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128235.538738^15:timestamp_start;18:1701128235.5366242^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c08::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;258:4:path;0:,9:authority;28:[2607:f8b0:4002:c08::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c08::5f;13:timestamp_end;0:~15:timestamp_start;17:1701128235.534494^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;16:1701128235.53472^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c08::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128235.536031^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:aef01627-8e68-42b8-90d9-3090ce7fd685;8:sockname;0:~8:peername;0:~}11:client_conn;410:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;18:1701128235.5329459^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:b7477d2e-ab83-4279-a748-240edd3c986b;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64861#]}5:error;0:~2:id;36:59db93fa-7d59-4cc8-b3a7-842b3c86566b;4:type;4:http;7:version;2:20#}1829:9:websocket;0:~8:response;431:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128235.654469^15:timestamp_start;16:1701128235.65431^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c05::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;258:4:path;0:,9:authority;28:[2607:f8b0:4002:c05::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c05::5f;13:timestamp_end;0:~15:timestamp_start;17:1701128235.652429^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128235.652622^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c05::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128235.653821^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:b95d0bae-a771-4ac4-9ff1-5394d7fd9b1a;8:sockname;0:~8:peername;0:~}11:client_conn;409:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128235.650974^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:f6e07e81-33a0-45ce-890f-f2ed437b6c49;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64863#]}5:error;0:~2:id;36:30247609-dfc9-4999-9441-c762672931e1;4:type;4:http;7:version;2:20#}1831:9:websocket;0:~8:response;431:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;16:1701128235.66363^15:timestamp_start;17:1701128235.663563^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c03::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;259:4:path;0:,9:authority;28:[2607:f8b0:4002:c03::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c03::5f;13:timestamp_end;0:~15:timestamp_start;18:1701128235.6623528^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128235.662545^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c03::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128235.663334^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:abc5cb4e-ab14-4072-9f16-f3efca92db90;8:sockname;0:~8:peername;0:~}11:client_conn;410:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;18:1701128235.6609762^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:f8e7a5e2-8004-4872-9a6c-ddcdb86b13c3;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64865#]}5:error;0:~2:id;36:bb02c02d-8dac-48b8-bac8-61aa3fa2efa8;4:type;4:http;7:version;2:20#}1830:9:websocket;0:~8:response;431:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;16:1701128235.67823^15:timestamp_start;17:1701128235.677505^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c09::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;258:4:path;0:,9:authority;28:[2607:f8b0:4002:c09::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c09::5f;13:timestamp_end;0:~15:timestamp_start;17:1701128235.675476^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128235.675669^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c09::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128235.677013^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:c1b7bc3d-bfa1-4d27-a235-527dd06d5e21;8:sockname;0:~8:peername;0:~}11:client_conn;410:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;18:1701128235.6739898^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:fc0d5fd4-d535-4ccc-9990-f6f51ee20427;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64867#]}5:error;0:~2:id;36:b2a3ac9c-7581-4368-9a65-ca5cb21bb846;4:type;4:http;7:version;2:20#}7582:9:websocket;0:~8:response;981:6:reason;2:OK,11:status_code;3:200#13:timestamp_end;17:1701128237.162001^15:timestamp_start;17:1701128237.160439^8:trailers;0:~7:content;388:ã       çë]ìö0ÜÔ˝q¶S€ôB·Clw€—≠nªÆ¨Ì *6	ãÏØØ»ËEûyﬂsrqf/U<õzQ±o¶Ωû◊◊4t)°–S0F≥RË»~π>É†o»f…—ˆyé4m⁄Ûd,é•B™)¡(∏(|bo¨õ¶9‘h¡Ÿ>}÷•àëè©R•c,Aº¡>jÙ$c2U,;ÛÉÀ≤Pò`‚bLàAMáN•ŒmWk∆¡_—1É¢pRã¸c¢vÛJ»„∆üµÌˆ±K_(‡≤kOêt·π=˙ññUm‹íF⁄¬la]≥8Ö®í
+ÑoPÀ4ù⁄∂k€‘¢.√…K≥ÕvÅÃñâñõ`ˇˇ}(Í~Ì⁄Kë/^Gã‰—™˚ÙÒıÔ–∂~úûægÒÖüÚ`ˆªXEø¨˜™›{ÀŸg'xH?ﬂa%	9o˛®≥®GºLô∆ÊV≤ûÁw&Æ¢M±áoæˇ1ò‰ˆ  ,7:headers;409:28:12:Content-Type,9:text/html,]33:6:Server,20:prod-xre-app12.ore11,]26:4:Vary,15:Accept-Encoding,]27:16:Content-Encoding,4:gzip,]43:7:Expires,29:Mon, 27 Nov 2023 23:37:17 GMT,]50:13:Cache-Control,29:max-age=0, no-cache, no-store,]20:6:Pragma,8:no-cache,]40:4:Date,29:Mon, 27 Nov 2023 23:37:17 GMT,]24:14:Content-Length,3:388,]28:10:Connection,10:keep-alive,]46:25:Strict-Transport-Security,13:max-age=86400,]]12:http_version;8:HTTP/1.1,}7:request;1386:4:path;340:/container/19112;123473;13378;iframe/?spotName=Mobile_Web_Session&ftXCurrency=A&ftXName=A&ftXNumItems=A&ftXRef=A&ftXType=A&ftXValue=A&U1=A&U2=A&U3=A&U4=A&U5=A&cachebuster=235447.36696635393__;WyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV0rKw!!N96JrnIq8IfO5w!3OqZ065GjRFlcxmjnVAQoMbP5zuw_9E57X2k7VKfgLzeMs11kSYtkrw8mpha-aC5fNCn$,9:authority;0:,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;13:23.223.223.38;13:timestamp_end;18:1701128237.0482402^15:timestamp_start;18:1701128237.0475662^8:trailers;0:~7:content;0:,7:headers;801:36:4:Host,25:servedby.flashtalking.com,]28:10:Connection,10:keep-alive,]82:9:sec-ch-ua,66:".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103",]25:16:sec-ch-ua-mobile,2:?1,]34:18:sec-ch-ua-platform,9:"Android",]33:25:Upgrade-Insecure-Requests,1:1,]151:10:User-Agent,132:Mozilla/5.0 (Linux; Android 13; sdk_gphone64_arm64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36,]149:6:Accept,135:text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9,]32:14:Sec-Fetch-Site,10:cross-site,]29:14:Sec-Fetch-Mode,8:navigate,]27:14:Sec-Fetch-Dest,6:iframe,]40:7:Referer,26:https://www.pinterest.com/,]40:15:Accept-Encoding,17:gzip, deflate, br,]37:15:Accept-Language,14:en-US,en;q=0.9,]]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128237.047647^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;4404:3:via;0:~19:timestamp_tcp_setup;17:1701128236.862119^7:address;23:13:23.223.223.38;3:443#]19:timestamp_tls_setup;17:1701128236.951914^13:timestamp_end;0:~15:timestamp_start;18:1701128236.7752588^3:sni;25:servedby.flashtalking.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;8:http/1.1,16:certificate_list;3842:2126:-----BEGIN CERTIFICATE-----
+MIIF9TCCBN2gAwIBAgIQAfd0Oqzat9iGATo492Fp3TANBgkqhkiG9w0BAQsFADBP
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE
+aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMzA5MTQwMDAwMDBa
+Fw0yNDA5MTQyMzU5NTlaMGkxCzAJBgNVBAYTAkdCMQ8wDQYDVQQHEwZMb25kb24x
+JTAjBgNVBAoTHFNJTVBMSUNJVFkgTUFSS0VUSU5HIExJTUlURUQxIjAgBgNVBAMT
+GXNlcnZlZGJ5LmZsYXNodGFsa2luZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAARVFvc5H/0tOFv9IigsRiCN2VOHLdNxJdfo+dsN/AeNptUMQ4dDT4mFeSON
+O5uGRMgcBRUqRQ3sLt6ZMXLW181uo4IDfDCCA3gwHwYDVR0jBBgwFoAUt2ui6qiq
+hIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFJnCITEUoQvazbjJVOE33iu9RMEFMCQG
+A1UdEQQdMBuCGXNlcnZlZGJ5LmZsYXNodGFsa2luZy5jb20wPgYDVR0gBDcwNTAz
+BgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20v
+Q1BTMA4GA1UdDwEB/wQEAwIDiDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUH
+AwEwgY8GA1UdHwSBhzCBhDBAoD6gPIY6aHR0cDovL2NybDMuZGlnaWNlcnQuY29t
+L0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00LmNybDBAoD6gPIY6aHR0cDov
+L2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00
+LmNybDB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRp
+Z2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNlcnQu
+Y29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8E
+AjAAMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwB2/4g/Crb7lVHCYcz1h7o0
+tKTNuyncaEIKn+ZnTFo6dAAAAYqRAL5kAAAEAwBIMEYCIQDEHj1srwtsE1K7cIc6
+3sTU9c51fOcdJ2OHxf7CFeZq9QIhALW+mbmU+H2KZu9SD4cML1SM/EV6s+RaXjl/
+WtcABl0yAHUASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGKkQC+
+MwAABAMARjBEAiAdvi15xaS9wJqQ0Yh4rkYEsThNyhGHZySiojVR2ldX6AIgazdv
+bSnE30C5k7t/VojbwccvYgIDpKEMv2xinAZWD6oAdgDatr9rP7W2Ip+bwrtca+hw
+kXFsu1GEhTS9pD0wSNf7qwAAAYqRAL31AAAEAwBHMEUCIG+ZTjWFXNIyi71cfmGb
+v/FLdx09Ub6wpAhPF1XEUOq2AiEAoeX627B1JZqSbpQW9HitidCz8/XBxfCRFUZG
+pIR4dGswDQYJKoZIhvcNAQELBQADggEBAIpzhtbVzj83g0jsNREmWgR51NnAAfsx
+4YrtKrq0jWxJBa2Nr+/JflXHl3WWzF/xUQdPI5kKPq7NBzmlbpaE3luyVJFEYyDo
+5xfhHu2DYaSgbVBSIQ1zfguUyg1Og+BOTQsJ5QZA8oVqDbYvB/VLJBW3ax2NYRZA
+h6Q/1mDI3WN+Gri+dRkznDcjuI8npQiYpIgr/SJcAyL5qdFPAqf9Jv4nq/MX8izA
+fIJ35aEKw0ZBQlUY9WTmgfvGsW3g20QE1Luqdw94zW4GqkMKJY9gYoWg0SopszWn
+FVqeo3o87RAOlvI9/oUISLJLABa27U2zQNzGOpPIbQHy0w8jjGdelQk=
+-----END CERTIFICATE-----
+,1704:-----BEGIN CERTIFICATE-----
+MIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
+QTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS
+U0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a
+qXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn
+g9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW
+raKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB
+Afr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r
+eacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB
+/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU
+A95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG
+GGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh
+Y2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV
+HR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH
+bG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB
+MAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB
+AQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z
+ax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h
+qG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC
+EXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6
+ce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E
+A7sKPPcw7+uvTPyLNhBzPvOk
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:ef2eb471-b25c-4f9a-ae9c-baddb77deee6;8:sockname;25:13:192.168.0.159;5:64870#]8:peername;23:13:23.223.223.38;3:443#]}11:client_conn;507:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1701128237.047034^13:timestamp_end;0:~15:timestamp_start;17:1701128236.772168^3:sni;25:servedby.flashtalking.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;8:http/1.1,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:47f4ff6d-b94b-4c61-b1e7-b7f735d40c74;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64869#]}5:error;0:~2:id;36:2670c5aa-d022-4bef-b7ba-c3aefcf0af1a;4:type;4:http;7:version;2:20#}10227:9:websocket;0:~8:response;732:6:reason;0:,11:status_code;3:200#13:timestamp_end;18:1701128237.1900532^15:timestamp_start;17:1701128237.188878^8:trailers;0:~7:content;43:GIF89a    ˇˇˇ   !˘    ,       D ;,7:headers;507:40:4:date,29:Mon, 27 Nov 2023 23:37:17 GMT,]28:12:content-type,9:image/gif,]23:14:content-length,2:43,]17:6:server,5:nginx,]148:10:set-cookie,129:sp=395837ab-f55b-4167-a102-e1c5736e8801; Expires=Tue, 26 Nov 2024 23:37:17 GMT; Domain=tvpixel.com; Path=/; Secure; SameSite=None,]56:13:cache-control,35:no-cache, no-store, must-revalidate,]80:3:p3p,70:policyref="/w3c/p3p.xml", CP="NOI DSP COR NID PSA OUR IND COM NAV STA",]35:27:access-control-allow-origin,1:*,]43:32:access-control-allow-credentials,4:true,]]12:http_version;8:HTTP/2.0,}7:request;1236:4:path;306:/i?aid=pinterest-aac27acd-90e7-48ad-9f38-60b7bf197c22&e=pv&p=web&tv=1x1&url=https%3A%2F%2Fwww.pinterest.com%2F%3Futm_source%3Dhomescreen_icon%26twa_type%3Dtwa&refr=android-app%3A%2F%2Fcom.pinterest.twa%2F&uid=8f12005f166b4cda8582598c7ca3350f*3f6d715a67e43da0c7cdc112dffd52f6122b9484ceba5540752bbbfbb7e192ed,9:authority;13:p.tvpixel.com,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;13:34.193.17.172;13:timestamp_end;17:1701128237.134345^15:timestamp_start;17:1701128237.133549^8:trailers;0:~7:content;0:,7:headers;673:82:9:sec-ch-ua,66:".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103",]25:16:sec-ch-ua-mobile,2:?1,]151:10:user-agent,132:Mozilla/5.0 (Linux; Android 13; sdk_gphone64_arm64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36,]34:18:sec-ch-ua-platform,9:"Android",]77:6:accept,64:image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8,]32:14:sec-fetch-site,10:cross-site,]28:14:sec-fetch-mode,7:no-cors,]26:14:sec-fetch-dest,5:image,]40:7:referer,26:https://www.pinterest.com/,]40:15:accept-encoding,17:gzip, deflate, br,]37:15:accept-language,14:en-US,en;q=0.9,]52:6:cookie,39:sp=395837ab-f55b-4167-a102-e1c5736e8801,]]12:http_version;8:HTTP/2.0,}6:backup;0:~17:timestamp_created;17:1701128237.133645^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;7465:3:via;0:~19:timestamp_tcp_setup;17:1701128236.969918^7:address;23:13:34.193.17.172;3:443#]19:timestamp_tls_setup;17:1701128237.080684^13:timestamp_end;0:~15:timestamp_start;18:1701128236.9218922^3:sni;13:p.tvpixel.com;11:tls_version;7:TLSv1.2;11:cipher_list;0:]6:cipher;27:ECDHE-RSA-AES128-GCM-SHA256;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;6916:2065:-----BEGIN CERTIFICATE-----
+MIIFyDCCBLCgAwIBAgIQDm/ey4pBbMdKq5T5JeStYzANBgkqhkiG9w0BAQsFADA8
+MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRwwGgYDVQQDExNBbWF6b24g
+UlNBIDIwNDggTTAyMB4XDTIzMTAxNDAwMDAwMFoXDTI0MTEwOTIzNTk1OVowGDEW
+MBQGA1UEAwwNKi50dnBpeGVsLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJjsVIKJjSI3ciKMECP5AWf1fWksaBD01+eVRIG8cMF9f8usMxscY601
+oRrwKc70FI0EaEQtTlrUGDM/h72QVq6A3oAziiHee/G8j35zXqJ/s8a5lswy53N/
+snwZjSbPRUPzpUNi0hs+UjX9kaTwDlPapxRGdxrlBRPwD3U5jL/5eW3I2seARpZH
+mVlh1M+uM1GCuC8I3Wd4BOOi6okeKiGhAmy77WQP4j6tJ91ZNpPzAOLny2aXbqGM
+hSrAI00fYQ66a25e8Aixy3j24Pmv/bWEE0V5gZIMujFo5HL/ECwjDcFk3rhvDRtu
+2i9S4fmJU5raT1GWhAlHURMyAJPVh2UCAwEAAaOCAugwggLkMB8GA1UdIwQYMBaA
+FMAxUs1aUMOCfHRxzsvpnPl664LiMB0GA1UdDgQWBBQxcwpPO/ZKxREYxg8MXoqD
+FhJlvjAYBgNVHREEETAPgg0qLnR2cGl4ZWwuY29tMBMGA1UdIAQMMAowCAYGZ4EM
+AQIBMA4GA1UdDwEB/wQEAwIFoDAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUH
+AwIwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL2NybC5yMm0wMi5hbWF6b250cnVz
+dC5jb20vcjJtMDIuY3JsMHUGCCsGAQUFBwEBBGkwZzAtBggrBgEFBQcwAYYhaHR0
+cDovL29jc3AucjJtMDIuYW1hem9udHJ1c3QuY29tMDYGCCsGAQUFBzAChipodHRw
+Oi8vY3J0LnIybTAyLmFtYXpvbnRydXN0LmNvbS9yMm0wMi5jZXIwDAYDVR0TAQH/
+BAIwADCCAYAGCisGAQQB1nkCBAIEggFwBIIBbAFqAHYA7s3QZNXbGs7FXLedtM0T
+ojKHRny87N7DUUhZRnEftZsAAAGLLWJ9+gAABAMARzBFAiAco3SI6Ol8vkPtbr+A
+A/NDL/xyjX4gtYdJ0cXXgBe9HwIhANGmFJAWyr9VpVJdZ/EvEoB0ljDacXADtTDb
+kN+inQSSAHcASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGLLWJ9
+7wAABAMASDBGAiEAybOjD5xzubOWFY5olHN4vpxflyv68qVpJvVbz7LIyJkCIQCp
+rEvAsX0GtByXzCjB2Yn6mr3aRr2gL19aDNdokgV93QB3ANq2v2s/tbYin5vCu1xr
+6HCRcWy7UYSFNL2kPTBI1/urAAABiy1ifd4AAAQDAEgwRgIhANzX6UG3iABqDwvp
+834avTvomrKrNC36fp+B5joEBEr9AiEA/nOpUwKuH25ypETzgaYbuB4jGE2SOtQH
+3SjENFYn9H8wDQYJKoZIhvcNAQELBQADggEBAFHhAwDX7hiVs/osGJRrg8cRZOQw
+M0rwL2oB4pyLQgcUS8ofPlwXQIE7erGyKcwVoTOVOifiDxTUzdHnoxh23Uuss1Rm
+gXXHv42QafuMeEnFChoSWiGnOVU+HcXJfdXg2Qzf4apjtCKi1IPSSm+MXFp5JZyK
+uB+JGsGBXi3IUOKpTBhcfA1PJwWpmLiezOGyLJeE/PgElwh/CDnq0AhwUwY0hzBo
+8jcjtr9dqpsF1YdFSBP+dvdWqAapzZxblDzjpx4DmsI3qiXOBg5noKNmqj4dzv/P
+UnVRzQLtWasVhwL8nhV4U8xBrmg3AoZ4QwtCRHkWzu1IR6+J8LRp7QhWZNo=
+-----END CERTIFICATE-----
+,1574:-----BEGIN CERTIFICATE-----
+MIIEXjCCA0agAwIBAgITB3MSSkvL1E7HtTvq8ZSELToPoTANBgkqhkiG9w0BAQsF
+ADA5MQswCQYDVQQGEwJVUzEPMA0GA1UEChMGQW1hem9uMRkwFwYDVQQDExBBbWF6
+b24gUm9vdCBDQSAxMB4XDTIyMDgyMzIyMjUzMFoXDTMwMDgyMzIyMjUzMFowPDEL
+MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEcMBoGA1UEAxMTQW1hem9uIFJT
+QSAyMDQ4IE0wMjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALtDGMZa
+qHneKei1by6+pUPPLljTB143Si6VpEWPc6mSkFhZb/6qrkZyoHlQLbDYnI2D7hD0
+sdzEqfnuAjIsuXQLG3A8TvX6V3oFNBFVe8NlLJHvBseKY88saLwufxkZVwk74g4n
+WlNMXzla9Y5F3wwRHwMVH443xGz6UtGSZSqQ94eFx5X7Tlqt8whi8qCaKdZ5rNak
++r9nUThOeClqFd4oXych//Rc7Y0eX1KNWHYSI1Nk31mYgiK3JvH063g+K9tHA63Z
+eTgKgndlh+WI+zv7i44HepRZjA1FYwYZ9Vv/9UkC5Yz8/yU65fgjaE+wVHM4e/Yy
+C2osrPWE7gJ+dXMCAwEAAaOCAVowggFWMBIGA1UdEwEB/wQIMAYBAf8CAQAwDgYD
+VR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAdBgNV
+HQ4EFgQUwDFSzVpQw4J8dHHOy+mc+XrrguIwHwYDVR0jBBgwFoAUhBjMhTTsvAyU
+lC4IWZzHshBOCggwewYIKwYBBQUHAQEEbzBtMC8GCCsGAQUFBzABhiNodHRwOi8v
+b2NzcC5yb290Y2ExLmFtYXpvbnRydXN0LmNvbTA6BggrBgEFBQcwAoYuaHR0cDov
+L2NydC5yb290Y2ExLmFtYXpvbnRydXN0LmNvbS9yb290Y2ExLmNlcjA/BgNVHR8E
+ODA2MDSgMqAwhi5odHRwOi8vY3JsLnJvb3RjYTEuYW1hem9udHJ1c3QuY29tL3Jv
+b3RjYTEuY3JsMBMGA1UdIAQMMAowCAYGZ4EMAQIBMA0GCSqGSIb3DQEBCwUAA4IB
+AQAtTi6Fs0Azfi+iwm7jrz+CSxHH+uHl7Law3MQSXVtR8RV53PtR6r/6gNpqlzdo
+Zq4FKbADi1v9Bun8RY8D51uedRfjsbeodizeBB8nXmeyD33Ep7VATj4ozcd31YFV
+fgRhvTSxNrrTlNpWkUk0m3BMPv8sg381HhA6uEYokE5q9uws/3YkKqRiEz3TsaWm
+JqIRZhMbgAfp7O7FUwFIb7UIspogZSKxPIWJpxiPo3TcBambbVtQOcNRWz5qCQdD
+slI2yayq0n2TXoHyNCLEH8rpsJRVILFsg0jc7BaFrMnF462+ajSehgj12IidNeRN
+4zl+EoNaWdpnWndvSpAEkq2P
+-----END CERTIFICATE-----
+,1647:-----BEGIN CERTIFICATE-----
+MIIEkjCCA3qgAwIBAgITBn+USionzfP6wq4rAfkI7rnExjANBgkqhkiG9w0BAQsF
+ADCBmDELMAkGA1UEBhMCVVMxEDAOBgNVBAgTB0FyaXpvbmExEzARBgNVBAcTClNj
+b3R0c2RhbGUxJTAjBgNVBAoTHFN0YXJmaWVsZCBUZWNobm9sb2dpZXMsIEluYy4x
+OzA5BgNVBAMTMlN0YXJmaWVsZCBTZXJ2aWNlcyBSb290IENlcnRpZmljYXRlIEF1
+dGhvcml0eSAtIEcyMB4XDTE1MDUyNTEyMDAwMFoXDTM3MTIzMTAxMDAwMFowOTEL
+MAkGA1UEBhMCVVMxDzANBgNVBAoTBkFtYXpvbjEZMBcGA1UEAxMQQW1hem9uIFJv
+b3QgQ0EgMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALJ4gHHKeNXj
+ca9HgFB0fW7Y14h29Jlo91ghYPl0hAEvrAIthtOgQ3pOsqTQNroBvo3bSMgHFzZM
+9O6II8c+6zf1tRn4SWiw3te5djgdYZ6k/oI2peVKVuRF4fn9tBb6dNqcmzU5L/qw
+IFAGbHrQgLKm+a/sRxmPUDgH3KKHOVj4utWp+UhnMJbulHheb4mjUcAwhmahRWa6
+VOujw5H5SNz/0egwLX0tdHA114gk957EWW67c4cX8jJGKLhD+rcdqsq08p8kDi1L
+93FcXmn/6pUCyziKrlA4b9v7LWIbxcceVOF34GfID5yHI9Y/QCB/IIDEgEw+OyQm
+jgSubJrIqg0CAwEAAaOCATEwggEtMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/
+BAQDAgGGMB0GA1UdDgQWBBSEGMyFNOy8DJSULghZnMeyEE4KCDAfBgNVHSMEGDAW
+gBScXwDfqgHXMCs4iKK4bUqc8hGRgzB4BggrBgEFBQcBAQRsMGowLgYIKwYBBQUH
+MAGGImh0dHA6Ly9vY3NwLnJvb3RnMi5hbWF6b250cnVzdC5jb20wOAYIKwYBBQUH
+MAKGLGh0dHA6Ly9jcnQucm9vdGcyLmFtYXpvbnRydXN0LmNvbS9yb290ZzIuY2Vy
+MD0GA1UdHwQ2MDQwMqAwoC6GLGh0dHA6Ly9jcmwucm9vdGcyLmFtYXpvbnRydXN0
+LmNvbS9yb290ZzIuY3JsMBEGA1UdIAQKMAgwBgYEVR0gADANBgkqhkiG9w0BAQsF
+AAOCAQEAYjdCXLwQtT6LLOkMm2xF4gcAevnFWAu5CIw+7bMlPLVvUOTNNWqnkzSW
+MiGpSESrnO09tKpzbeR/FoCJbM8oAxiDR3mjEH4wW6w7sGDgd9QIpuEdfF7Au/ma
+eyKdpwAJfqxGF4PcnCZXmTA5YpaP7dreqsXMGz7KQ2hsVxa81Q4gLv7/wmpdLqBK
+bRRYh5TmOTFffHPLkIhqhBGWJ6bt2YFGpn6jcgAKUj6DiAdjd4lpFw85hdKrCEVN
+0FE6/V1dN2RMfjCyVSRCnTawXZwXgWHxyvkQAiSr6w10kY17RSlQOYiypok1JR4U
+akcjMS9cmvqtmg5iUaQqqcT5NJ0hGA==
+-----END CERTIFICATE-----
+,1606:-----BEGIN CERTIFICATE-----
+MIIEdTCCA12gAwIBAgIJAKcOSkw0grd/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNV
+BAYTAlVTMSUwIwYDVQQKExxTdGFyZmllbGQgVGVjaG5vbG9naWVzLCBJbmMuMTIw
+MAYDVQQLEylTdGFyZmllbGQgQ2xhc3MgMiBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0
+eTAeFw0wOTA5MDIwMDAwMDBaFw0zNDA2MjgxNzM5MTZaMIGYMQswCQYDVQQGEwJV
+UzEQMA4GA1UECBMHQXJpem9uYTETMBEGA1UEBxMKU2NvdHRzZGFsZTElMCMGA1UE
+ChMcU3RhcmZpZWxkIFRlY2hub2xvZ2llcywgSW5jLjE7MDkGA1UEAxMyU3RhcmZp
+ZWxkIFNlcnZpY2VzIFJvb3QgQ2VydGlmaWNhdGUgQXV0aG9yaXR5IC0gRzIwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDVDDrEKvlO4vW+GZdfjohTsR8/
+y8+fIBNtKTrID30892t2OGPZNmCom15cAICyL1l/9of5JUOG52kbUpqQ4XHj2C0N
+Tm/2yEnZtvMaVq4rtnQU68/7JuMauh2WLmo7WJSJR1b/JaCTcFOD2oR0FMNnngRo
+Ot+OQFodSk7PQ5E751bWAHDLUu57fa4657wx+UX2wmDPE1kCK4DMNEffud6QZW0C
+zyyRpqbn3oUYSXxmTqM6bam17jQuug0DuDPfR+uxa40l2ZvOgdFFRjKWcIfeAg5J
+Q4W2bHO7ZOphQazJ1FTfhy/HIrImzJ9ZVGif/L4qL8RVHHVAYBeFAlU5i38FAgMB
+AAGjgfAwge0wDwYDVR0TAQH/BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAYYwHQYDVR0O
+BBYEFJxfAN+qAdcwKziIorhtSpzyEZGDMB8GA1UdIwQYMBaAFL9ft9HO3R+G9FtV
+rNzXEMIOqYjnME8GCCsGAQUFBwEBBEMwQTAcBggrBgEFBQcwAYYQaHR0cDovL28u
+c3MyLnVzLzAhBggrBgEFBQcwAoYVaHR0cDovL3guc3MyLnVzL3guY2VyMCYGA1Ud
+HwQfMB0wG6AZoBeGFWh0dHA6Ly9zLnNzMi51cy9yLmNybDARBgNVHSAECjAIMAYG
+BFUdIAAwDQYJKoZIhvcNAQELBQADggEBACMd44pXyn3pF3lM8R5V/cxTbj5HD9/G
+VfKyBDbtgB9TxF00KGu+x1X8Z+rLP3+QsjPNG1gQggL4+C/1E2DUBc7xgQjB3ad1
+l08YuW3e95ORCLp+QCztweq7dp4zBncdDQh/U90bZKuCJ/Fp1U1ervShw3WnWEQt
+8jxwmKy6abaVd38PMV4s/KCHOkdp8Hlf9BRUpJVeEXgSYCfOn8J3/yNTd126/+pZ
+59vPr5KW7ySaNRB6nJHGDn2Z9j8Z3/VyVOEVqQdZe4O/Ui5GjLIAZHYcSNPYeehu
+VsyuLAOQ1xk4meTKCRlb/weWsKh/NEnfVqn3sF/tM+2MR7cwA130A4w=
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:8e3612cf-ab98-4585-8bb6-9f230bf869b3;8:sockname;25:13:192.168.0.159;5:64872#]8:peername;23:13:34.193.17.172;3:443#]}11:client_conn;490:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;18:1701128237.1310642^13:timestamp_end;0:~15:timestamp_start;17:1701128236.920788^3:sni;13:p.tvpixel.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;2:h2,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:f176831c-cf00-4131-a9af-0a61d49a1684;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64871#]}5:error;0:~2:id;36:193af5e5-71de-4a83-88ca-75eb85ef00b3;4:type;4:http;7:version;2:20#}7400:9:websocket;0:~8:response;571:6:reason;2:OK,11:status_code;3:200#13:timestamp_end;18:1701128237.3738391^15:timestamp_start;16:1701128237.37275^8:trailers;0:~7:content;42:GIF89a  Ä     ˇˇˇ!˘    ,      @D ;,7:headers;346:28:12:Content-Type,9:image/gif,]23:14:Content-Length,2:42,]32:6:Server,19:prod-xre-app7.ore11,]43:7:Expires,29:Mon, 27 Nov 2023 23:37:17 GMT,]50:13:Cache-Control,29:max-age=0, no-cache, no-store,]20:6:Pragma,8:no-cache,]40:4:Date,29:Mon, 27 Nov 2023 23:37:17 GMT,]28:10:Connection,10:keep-alive,]46:25:Strict-Transport-Security,13:max-age=86400,]]12:http_version;8:HTTP/1.1,}7:request;1614:4:path;330:/spot/1/19112;123473;13378/?spotName=Mobile_Web_Session&ftXCurrency=A&ftXName=A&ftXNumItems=A&ftXRef=A&ftXType=A&ftXValue=A&U1=A&U2=A&U3=A&U4=A&U5=A&cachebuster=235447.36696635393__;WyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV0rKw!!N96JrnIq8IfO5w!3OqZ065GjRFlcxmjnVAQoMbP5zuw_9E57X2k7VKfgLzeMs11kSYtkrw8mpha-aC5fNCn$,9:authority;0:,6:scheme;5:https,6:method;3:GET,4:port;3:443#4:host;13:23.223.223.38;13:timestamp_end;17:1701128237.263882^15:timestamp_start;18:1701128237.2622662^8:trailers;0:~7:content;0:,7:headers;1039:36:4:Host,25:servedby.flashtalking.com,]28:10:Connection,10:keep-alive,]82:9:sec-ch-ua,66:".Not/A)Brand";v="99", "Google Chrome";v="103", "Chromium";v="103",]25:16:sec-ch-ua-mobile,2:?1,]151:10:User-Agent,132:Mozilla/5.0 (Linux; Android 13; sdk_gphone64_arm64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.71 Mobile Safari/537.36,]34:18:sec-ch-ua-platform,9:"Android",]77:6:Accept,64:image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8,]33:14:Sec-Fetch-Site,11:same-origin,]28:14:Sec-Fetch-Mode,7:no-cors,]26:14:Sec-Fetch-Dest,5:image,]388:7:Referer,373:https://servedby.flashtalking.com/container/19112;123473;13378;iframe/?spotName=Mobile_Web_Session&ftXCurrency=A&ftXName=A&ftXNumItems=A&ftXRef=A&ftXType=A&ftXValue=A&U1=A&U2=A&U3=A&U4=A&U5=A&cachebuster=235447.36696635393__;WyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV1bJSVdWyUlXVslJV0rKw!!N96JrnIq8IfO5w!3OqZ065GjRFlcxmjnVAQoMbP5zuw_9E57X2k7VKfgLzeMs11kSYtkrw8mpha-aC5fNCn$,]40:15:Accept-Encoding,17:gzip, deflate, br,]37:15:Accept-Language,14:en-US,en;q=0.9,]]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128237.262536^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;4404:3:via;0:~19:timestamp_tcp_setup;17:1701128236.862119^7:address;23:13:23.223.223.38;3:443#]19:timestamp_tls_setup;17:1701128236.951914^13:timestamp_end;0:~15:timestamp_start;18:1701128236.7752588^3:sni;25:servedby.flashtalking.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;8:http/1.1,16:certificate_list;3842:2126:-----BEGIN CERTIFICATE-----
+MIIF9TCCBN2gAwIBAgIQAfd0Oqzat9iGATo492Fp3TANBgkqhkiG9w0BAQsFADBP
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMSkwJwYDVQQDEyBE
+aWdpQ2VydCBUTFMgUlNBIFNIQTI1NiAyMDIwIENBMTAeFw0yMzA5MTQwMDAwMDBa
+Fw0yNDA5MTQyMzU5NTlaMGkxCzAJBgNVBAYTAkdCMQ8wDQYDVQQHEwZMb25kb24x
+JTAjBgNVBAoTHFNJTVBMSUNJVFkgTUFSS0VUSU5HIExJTUlURUQxIjAgBgNVBAMT
+GXNlcnZlZGJ5LmZsYXNodGFsa2luZy5jb20wWTATBgcqhkjOPQIBBggqhkjOPQMB
+BwNCAARVFvc5H/0tOFv9IigsRiCN2VOHLdNxJdfo+dsN/AeNptUMQ4dDT4mFeSON
+O5uGRMgcBRUqRQ3sLt6ZMXLW181uo4IDfDCCA3gwHwYDVR0jBBgwFoAUt2ui6qiq
+hIx56rTaD5iyxZV2ufQwHQYDVR0OBBYEFJnCITEUoQvazbjJVOE33iu9RMEFMCQG
+A1UdEQQdMBuCGXNlcnZlZGJ5LmZsYXNodGFsa2luZy5jb20wPgYDVR0gBDcwNTAz
+BgZngQwBAgIwKTAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5kaWdpY2VydC5jb20v
+Q1BTMA4GA1UdDwEB/wQEAwIDiDAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUH
+AwEwgY8GA1UdHwSBhzCBhDBAoD6gPIY6aHR0cDovL2NybDMuZGlnaWNlcnQuY29t
+L0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00LmNybDBAoD6gPIY6aHR0cDov
+L2NybDQuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS00
+LmNybDB/BggrBgEFBQcBAQRzMHEwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmRp
+Z2ljZXJ0LmNvbTBJBggrBgEFBQcwAoY9aHR0cDovL2NhY2VydHMuZGlnaWNlcnQu
+Y29tL0RpZ2lDZXJ0VExTUlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8E
+AjAAMIIBfgYKKwYBBAHWeQIEAgSCAW4EggFqAWgAdwB2/4g/Crb7lVHCYcz1h7o0
+tKTNuyncaEIKn+ZnTFo6dAAAAYqRAL5kAAAEAwBIMEYCIQDEHj1srwtsE1K7cIc6
+3sTU9c51fOcdJ2OHxf7CFeZq9QIhALW+mbmU+H2KZu9SD4cML1SM/EV6s+RaXjl/
+WtcABl0yAHUASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGKkQC+
+MwAABAMARjBEAiAdvi15xaS9wJqQ0Yh4rkYEsThNyhGHZySiojVR2ldX6AIgazdv
+bSnE30C5k7t/VojbwccvYgIDpKEMv2xinAZWD6oAdgDatr9rP7W2Ip+bwrtca+hw
+kXFsu1GEhTS9pD0wSNf7qwAAAYqRAL31AAAEAwBHMEUCIG+ZTjWFXNIyi71cfmGb
+v/FLdx09Ub6wpAhPF1XEUOq2AiEAoeX627B1JZqSbpQW9HitidCz8/XBxfCRFUZG
+pIR4dGswDQYJKoZIhvcNAQELBQADggEBAIpzhtbVzj83g0jsNREmWgR51NnAAfsx
+4YrtKrq0jWxJBa2Nr+/JflXHl3WWzF/xUQdPI5kKPq7NBzmlbpaE3luyVJFEYyDo
+5xfhHu2DYaSgbVBSIQ1zfguUyg1Og+BOTQsJ5QZA8oVqDbYvB/VLJBW3ax2NYRZA
+h6Q/1mDI3WN+Gri+dRkznDcjuI8npQiYpIgr/SJcAyL5qdFPAqf9Jv4nq/MX8izA
+fIJ35aEKw0ZBQlUY9WTmgfvGsW3g20QE1Luqdw94zW4GqkMKJY9gYoWg0SopszWn
+FVqeo3o87RAOlvI9/oUISLJLABa27U2zQNzGOpPIbQHy0w8jjGdelQk=
+-----END CERTIFICATE-----
+,1704:-----BEGIN CERTIFICATE-----
+MIIEvjCCA6agAwIBAgIQBtjZBNVYQ0b2ii+nVCJ+xDANBgkqhkiG9w0BAQsFADBh
+MQswCQYDVQQGEwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMRkwFwYDVQQLExB3
+d3cuZGlnaWNlcnQuY29tMSAwHgYDVQQDExdEaWdpQ2VydCBHbG9iYWwgUm9vdCBD
+QTAeFw0yMTA0MTQwMDAwMDBaFw0zMTA0MTMyMzU5NTlaME8xCzAJBgNVBAYTAlVT
+MRUwEwYDVQQKEwxEaWdpQ2VydCBJbmMxKTAnBgNVBAMTIERpZ2lDZXJ0IFRMUyBS
+U0EgU0hBMjU2IDIwMjAgQ0ExMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEAwUuzZUdwvN1PWNvsnO3DZuUfMRNUrUpmRh8sCuxkB+Uu3Ny5CiDt3+PE0J6a
+qXodgojlEVbbHp9YwlHnLDQNLtKS4VbL8Xlfs7uHyiUDe5pSQWYQYE9XE0nw6Ddn
+g9/n00tnTCJRpt8OmRDtV1F0JuJ9x8piLhMbfyOIJVNvwTRYAIuE//i+p1hJInuW
+raKImxW8oHzf6VGo1bDtN+I2tIJLYrVJmuzHZ9bjPvXj1hJeRPG/cUJ9WIQDgLGB
+Afr5yjK7tI4nhyfFK3TUqNaX3sNk+crOU6JWvHgXjkkDKa77SU+kFbnO8lwZV21r
+eacroicgE7XQPUDTITAHk+qZ9QIDAQABo4IBgjCCAX4wEgYDVR0TAQH/BAgwBgEB
+/wIBADAdBgNVHQ4EFgQUt2ui6qiqhIx56rTaD5iyxZV2ufQwHwYDVR0jBBgwFoAU
+A95QNVbRTLtm8KPiGxvDl7I90VUwDgYDVR0PAQH/BAQDAgGGMB0GA1UdJQQWMBQG
+CCsGAQUFBwMBBggrBgEFBQcDAjB2BggrBgEFBQcBAQRqMGgwJAYIKwYBBQUHMAGG
+GGh0dHA6Ly9vY3NwLmRpZ2ljZXJ0LmNvbTBABggrBgEFBQcwAoY0aHR0cDovL2Nh
+Y2VydHMuZGlnaWNlcnQuY29tL0RpZ2lDZXJ0R2xvYmFsUm9vdENBLmNydDBCBgNV
+HR8EOzA5MDegNaAzhjFodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGlnaUNlcnRH
+bG9iYWxSb290Q0EuY3JsMD0GA1UdIAQ2MDQwCwYJYIZIAYb9bAIBMAcGBWeBDAEB
+MAgGBmeBDAECATAIBgZngQwBAgIwCAYGZ4EMAQIDMA0GCSqGSIb3DQEBCwUAA4IB
+AQCAMs5eC91uWg0Kr+HWhMvAjvqFcO3aXbMM9yt1QP6FCvrzMXi3cEsaiVi6gL3z
+ax3pfs8LulicWdSQ0/1s/dCYbbdxglvPbQtaCdB73sRD2Cqk3p5BJl+7j5nL3a7h
+qG+fh/50tx8bIKuxT8b1Z11dmzzp/2n3YWzW2fP9NsarA4h20ksudYbj/NhVfSbC
+EXffPgK2fPOre3qGNm+499iTcc+G33Mw+nur7SpZyEKEOxEXGlLzyQ4UfaJbcme6
+ce1XR2bFuAJKZTRei9AqPCCcUZlM51Ke92sRKw2Sfh3oius2FkOH6ipjv3U/697E
+A7sKPPcw7+uvTPyLNhBzPvOk
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:ef2eb471-b25c-4f9a-ae9c-baddb77deee6;8:sockname;25:13:192.168.0.159;5:64870#]8:peername;23:13:23.223.223.38;3:443#]}11:client_conn;507:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1701128237.047034^13:timestamp_end;0:~15:timestamp_start;17:1701128236.772168^3:sni;25:servedby.flashtalking.com;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;16:2:h2,8:http/1.1,]4:alpn;8:http/1.1,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:47f4ff6d-b94b-4c61-b1e7-b7f735d40c74;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64869#]}5:error;0:~2:id;36:67d3ddbf-8693-443f-a525-6856f7a0c0be;4:type;4:http;7:version;2:20#}36685:8:messages;29409:163:4:true!130: Ä         www	pinterestcom     )    Ä  R  N                                                                              ,17:1701128232.824588^]505:5:false!470:‘  ÅÄ     www	pinterestcom   ¿    
+ÿ www-pinterest-comgslb¿¿/      2-01-37d2-0018cdxcedexisnet ¿T     ﬂ www	pinterestcomedgekey¿o¿Ä    0â e6449a
+akamaiedge¿o¿®      ’$À  )   Ä  ¸  ¯                                                                                                                                                                                                                                                        ,18:1701128232.8632169^]163:4:true!130: Ä         spinimgcom     )    Ä  W  S                                                                                   ,17:1701128232.996385^]164:4:true!130: Ä        spinimgcom     )    Ä  W  S                                                                                   ,18:1701128232.9985752^]504:5:false!470:‘  ÅÄ     spinimgcom   ¿    
+o s-pinimg-comgslb	pinterest¿¿*    &  2-01-37d2-0020cdxcedexisnet ¿T     Y spinimgcomedgekey¿o¿Ä     « e6449dsca
+akamaiedge¿o¿£      ’$À  )   Ä  ˛  ˙                                                                                                                                                                                                                                                          ,17:1701128233.038192^]504:5:false!470:‘ ÅÄ     spinimgcom   ¿    	 s-pinimg-comgslb	pinterest¿¿*    ó  2-01-37d2-0020cdxcedexisnet ¿T    , !	dualstack	pinterestmapfastly¿o¿Ä     å *NB          Ñ  )   Ä                                                                                                                                                                                                                                                                          ,17:1701128233.056247^]163:4:true!130: Ä         beaconsgcpgvt2com     )    Ä  O  K                                                                           ,17:1701128233.644874^]163:4:true!130: Ä        accountsgooglecom     )    Ä  P  L                                                                            ,17:1701128233.647445^]163:4:true!130: Ä        beaconsgcpgvt2com     )    Ä  O  K                                                                           ,17:1701128233.650517^]163:4:true!130: Ä        accountsgooglecom     )    Ä  P  L                                                                            ,17:1701128233.652512^]1916:5:false!1880:‘  ÅÄ     beaconsgcpgvt2com   ¿     beacons-handoff¿¿2    " ¿≤0„  )   Ä u q                                                                                                                                                                                                                                                                                                                                                                                 ‘ ÅÄ     beaconsgcpgvt2com   ¿    ) beacons-handoff¿¿2    ) &¯∞@*         )   Ä i e                                                                                                                                                                                                                                                                                                                                                                     ‘ ÅÄ     accountsgooglecom   ¿     K &¯∞@       T  )   Ä à Ñ                                                                                                                                                                                                                                                                                                                                                                                                    ‘ ÅÄ     accountsgooglecom   ¿     ó é˙	T  )   Ä î ê                                                                                                                                                                                                                                                                                                                                                                                                                ,18:1701128233.7126431^]164:4:true!130: Ä         v1pinimgcom     )    Ä  V  R                                                                                  ,18:1701128234.0442162^]163:4:true!130: Ä        v1pinimgcom     )    Ä  V  R                                                                                  ,17:1701128234.057631^]504:5:false!470:‘  ÅÄ     v1pinimgcom   ¿    e v-pinimg-comgslb	pinterest¿¿+    ™  2-01-37d2-0007cdxcedexisnet ¿U    , d3dwwfk682tmuh
+cloudfront¿p¿Å     < & ê %Ù    ˆ∫@ì°¿Å     < & ê %Ùú   ˆ∫@ì°¿Å     < & ê %Ù>   ˆ∫@ì°¿Å     < & ê %Ù   ˆ∫@ì°¿Å     < & ê %Ù$   ˆ∫@ì°¿Å     < & ê %Ùê   ˆ∫@ì°¿Å     < & ê %Ù   ˆ∫@ì°¿Å     < & ê %Ù   ˆ∫@ì°  )   Ä  L  H                                                                        ,17:1701128234.101109^]505:5:false!470:‘ ÅÄ     v1pinimgcom   ¿    · v-pinimg-comgslb	pinterest¿¿+      videogslb	pinterestnet ¿U     < vpinimgcom	edgesuite¿j¿{    B{ a1863dscvakamai¿j¿†       Kï¿†       Kê¿†       Kõ¿†       Kâ¿†       Ké¿†       Kî¿†       Kì¿†       Kô¿†       Kä  )   Ä  Ö  Å                                                                                                                                 ,18:1701128234.1054459^]293:4:true!260: Ä         ct	pinterestcom     )    Ä  S  O                                                                                Ä        ct	pinterestcom     )    Ä  S  O                                                                               ,17:1701128234.657985^]973:5:false!940:‘ ÅÄ    ct	pinterestcom   ¿    9 www¿¿.     www-pinterest-comgslb¿¿@    ≥  2-01-37d2-0018cdxcedexisnet ¿e     Õ #prod	pinterestglobalmapfastly¿Ä¿´      .ns1¿´
+hostmasterfastly¿x9∆)    X 	:Ä     )   Ä  €  ◊                                                                                                                                                                                                                       ‘  ÅÄ     ct	pinterestcom   ¿    
+ www¿¿.    	 www-pinterest-comgslb¿¿@    M  2-01-37d2-0018cdxcedexisnet ¿e     © #prod	pinterestglobalmapfastly¿Ä¿ë     ç óe T¿ë     ç óe@T¿ë     ç óeÄT¿ë     ç óe¿T  )   Ä  ’  —                                                                                                                                                                                                                 ,16:1701128234.69446^]163:4:true!130: Ä         servedbyflashtalkingcom     )    Ä  J  F                                                                      ,17:1701128236.713974^]505:5:false!470:‘  ÅÄ     servedbyflashtalkingcom   ¿    
+∞ *servedbyflashtalkingcom-v1edgekeynet ¿7    GE e4751b
+akamaiedge¿\¿m      ﬂﬂ&  )   Ä 7 3                                                                                                                                                                                                                                                                                                                   ,18:1701128236.7603579^]164:4:true!130: Ä         ptvpixelcom     )    Ä  V  R                                                                                  ,18:1701128236.8747241^]163:4:true!130: Ä        ptvpixelcom     )    Ä  V  R                                                                                  ,17:1701128236.877088^]504:5:false!470:‘  ÅÄ     ptvpixelcom   ¿    ß Ens-580	awsdns-08net awsdns-hostmasteramazon¿        Ñ u  QÄ  )   Ä Y U                                                                                                                                                                                                                                                                                                                                                     ,17:1701128236.911516^]505:5:false!470:‘ ÅÄ     ptvpixelcom   ¿      "¡¨¿      4Ã∆¿      "Õi•¿      ﬁ Y¿      6úà’¿      6Ì‰ˇ¿      Â£t¿      ’œπ  )   Ä * &                                                                                                                                                                                                                                                                                                      ,18:1701128236.9183419^]163:4:true!130: Ä         ad2trafficgatenet     )    Ä  P  L                                                                            ,17:1701128237.038392^]163:4:true!130: Ä        adletmeadscom     )    Ä  T  P                                                                                ,17:1701128237.043107^]504:5:false!470:‘  ÅÄ     ad2trafficgatenet   ¿     n !ad2-trafficgate-netgslbrdcnw¿¿1     4 ÖÌ<õ  )   Ä g c                                                                                                                                                                                                                                                                                                                                                                   ,17:1701128237.076749^]164:4:true!130: Ä        
+advmanagertechfunpl     )    Ä  N  J                                                                          ,18:1701128237.0951521^]163:4:true!130: Ä        
+advmanagertechfunpl     )    Ä  N  J                                                                          ,17:1701128237.097132^]163:4:true!130: Ä        adserverwebadsnl     )    Ä  Q  M                                                                             ,17:1701128237.128453^]505:5:false!470:‘ ÅÄ     
+advmanagertechfunpl   ¿     : ≤!7ª  )   Ä í é                                                                                                                                                                                                                                                                                                                                                                                                              ,18:1701128237.1313221^]973:5:false!938:® Å†    adserverwebadsnl   ¿     ¶ ¿¿ .    ¶ ]   ,eq eU[Ä6™webadsnl 0©#TEWA¿Ï⁄JXæ®ﬂ#Yˇ6»˜f/v∞ƒlp}™π'≤’Uˇj}s—!èœöOé$¿€ù°&/b›¿     ¶ àêå'¿ .    ¶ ]   ,eq eU[Ä6™webadsnl ü¿¶™NT»]UßÔ
+ƒRqÛÎÔ´¥@à7&z§æv›Â}	sÔËﬁ¸t“à:¨Xp@\I>dèFy¬ò©ù lkbhng2nr99prh5if47i8thju161ic4p¿ 2    ¶ *   £~◊™Ú}¬x8^¿V	mÔ^+˛h˛Ú     ¡ .    ¶ ] 2  ,eq eU[Ä6™webadsnl O?ÉÈüxò~óΩåB‡Í…røË0˙
+ç )¶J÷Ó_™·≠O±j|`P+rB∏:€üg‹‡fÑ`Z3ÜΩÕã  )   Ä … ≈                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ,18:1701128237.1709828^]504:5:false!470:‘ ÅÄ     adletmeadscom   ¿     < =ns111
+inhostedns¿
+hostmasteradmtools xï¢Ù  ®¿    	:Ä   <  )   Ä _ [                                                                                                                                                                                                                                                                                                                                                           ,17:1701128237.209889^]504:5:false!470:‘ ÅÄ     
+advmanagertechfunpl   ¿      +dns104ovhnet tech¿:xñ QÄ   6ÓÄ  ,  )   Ä k g                                                                                                                                                                                                                                                                                                                                                                       ,17:1701128237.219866^]162:4:true!130: Ä        affiliazioniadssnaiit     )    Ä  L  H                                                                        ,16:1701128237.22441^]164:4:true!130: Ä        affiliazioniadssnaiit     )    Ä  L  H                                                                        ,18:1701128237.2487779^]163:4:true!130: Ä        wwwtipicocom     )    Ä  U  Q                                                                                 ,17:1701128237.255483^]164:4:true!130: Ä        wwwstumbleuponcom     )    Ä  P  L                                                                            ,18:1701128237.2563121^]163:4:true!130: Ä        wwwstumbleuponcom     )    Ä  P  L                                                                            ,17:1701128237.256929^]505:5:false!470:‘ ÅÄ     affiliazioniadssnaiit   ¿    g #affiliazionisnaicdnnetrefercom ¿5    § @.fd-core-fd-prod-01-westeurope-hxakeja9dkepbkhfz01azurefdnet ¿d      #star-azurefd-prodtrafficmanager¿ü¿∞     < *sheddual-low	part-0013t-0009t-msedge¿ü¿ﬂ     ; ¿Ì¿Ì     ' & Ïﬂ         A¿Ì     ' & Ï F         A  )   Ä  z  v                                                                                                                      ,18:1701128237.2753642^]504:5:false!470:‘ ÅÄ     wwwtipicocom   ¿    	 tipicoedgekeynet ¿,    Rπ e9520ksd
+akamaiedge¿;¿L      ƒÀ›  )   Ä V R                                                                                                                                                                                                                                                                                                                                                  ,17:1701128237.288935^]164:4:true!130: Ä        
+ya-distribru     )    Ä  V  R                                                                                  ,18:1701128237.2920802^]974:5:false!940:‘ ÅÄ     wwwstumbleuponcom   ¿     ^ cname
+vercel-dns¿¿1    Û LLb¿1    Û LL	  )   Ä e a                                                                                                                                                                                                                                                                                                                                                                 ‘ ÅÄ    wwwstumbleuponcom   ¿     ^ cname
+vercel-dns¿¿7    ± 5dns1p07nsonenet 
+hostmaster¿YbÃ]!  ®¿    u     )   Ä D @                                                                                                                                                                                                                                                                                                                                ,17:1701128237.294241^]164:4:true!130: Ä 	       appreadpeakcom     )    Ä  S  O                                                                               ,18:1701128237.2984939^]504:5:false!470:‘ ÅÄ     affiliazioniadssnaiit   ¿    1 #affiliazionisnaicdnnetrefercom ¿5    
+˙ @.fd-core-fd-prod-01-westeurope-hxakeja9dkepbkhfz01azurefdnet ¿d      #star-azurefd-prodtrafficmanager¿ü¿∞     < *sheddual-low	part-0013t-0009t-msedge¿ü¿ﬂ     2 ¿Ì¿Ì     2 kˆ)¿Ì     2 k’)  )   Ä  í  é                                                                                                                                              ,17:1701128237.299953^]163:4:true!130: Ä 
+       appreadpeakcom     )    Ä  S  O                                                                               ,17:1701128237.301134^]163:4:true!130: Ä        axiabannersexodusgr     )    Ä  N  J                                                                          ,17:1701128237.302451^]2727:5:false!2692:  ÅÉ     
+ya-distribru    8r4027qiacrqm5rsmdils9avhpa5q187¿ 2   ì "   F“E2K≤<˚ë%r»‘∂>ˆ¢◊“      ¿ .   ì ñ 2  eãreQ€÷≠ru |á≠;PSCfEªäÑ°:∏Œÿ=óµ+TM˙Tõ}1˛?√;¯+1(‘≈3TÔ¥Í„õøV˚¯8πN©∑’3Õ,¸êΩ&Œ¥4õ)ëV{ÀôïµöCönÄ à≈vb˚Œ˙»„ıêæ@≈Sßµ™!l‚=Ø•⁄V«Ñó#E„®â˘?§ñ j20c0qkdhua3cumnkst289ff06u2sq91¿ 2   ì #   òÇ¿áë∆;l;TŒÏê±
+ÖHÑ∆ "    ê¡ .   ì ñ 2  eÑäZeQ€÷≠ru 0Ï¬u0#˙ç	_g∆®S≠4uÿ°\9$q©·wˆ·ÈùŒÓ\ PˆÓÆu˜ >≥ÀAÉ÷&ô¬è©Á.âq…©d-Œè◊™2YÉÔl˘uX/à*Ø^û£h)4‚€Ó/^PYJW+ë∆;SŸBª¬¸7ºŒ˛ r4lasq7jgtut8vao8u065v9pm371fqlg¿ 2   ì "   Ÿ5ú‡et®œµ|e«õ~ÙQA„      ¬ .   ì ñ 2  eàC9eQ€÷≠ru :_ˇEÁNh«Á˛ˆ]⁄7˘>5¥Å÷7ìü≠ÌÑê’$≥¿ªÈ˛b+‹ﬁ∏ØßOÑÎÄπÜÇî_9É/VÔiÕ?¯î¡≤3_⁄
+√•¬„NKäo˙Eèa\”Æó39êÙo »Õ,∏∆ÀçÑdYS_àòŸqÚØM˚P|”t'£HO’¯¿    ã 1adnsripnnet 
+hostmaster√ =ÎÌ QÄ  8@ 'ç   ¿ .   ã ñ  F eòüee˜≠ru ∂*à≤±w—=„õó<ı(pfvL÷JJßÏ{<‚xZî•◊‰‰0YX°¶«ßıâ◊¡1µ›Zù¨íµâ∫®nh·BØûáÓ˛ﬁ*àŒTI]'Sÿb?´ã+\{
+Mê∫6£ƒr"Õ≥ﬂ>]$æ%ƒ—‡≥IsCwG vM;ïÉ¶  )   Ä #                                                                                                                                                                                                                                                                                                ‘ 
+ÅÄ     appreadpeakcom   ¿    b Q	dualstack)readpeakloadbalancer-production-126343442eu-central-1elb	amazonaws¿¿.     3 E=¿.     3 G´&  )   Ä * &                                                                                                                                                                                                                                                                                                      ‘ ÅÄ     axiabannersexodusgr   ¿     ñ Jns1-09	azure-dnscom azuredns-hostmaster	microsoft¿D       , $Í   ,  )   Ä L H                                                                                                                                                                                                                                                                                                                                        ‘ 	ÅÄ     appreadpeakcom   ¿    b Q	dualstack)readpeakloadbalancer-production-126343442eu-central-1elb	amazonaws¿¿.     < *–
+NG¶≥π£DÛ¿.     < *–
+NG n&o?ÜX  )   Ä                                                                                                                                                                                                                                                                                ,17:1701128237.337417^]163:4:true!130: Ä         g1vfwmrmnet     )    Ä  U  Q                                                                                 ,17:1701128237.370628^]293:4:true!260: Ä        g1vfwmrmnet     )    Ä  U  Q                                                                                  Ä        febrareru     )    Ä  Y  U                                                                                     ,17:1701128237.399901^]163:4:true!130: Ä        interactiveforthnetgr     )    Ä  L  H                                                                        ,17:1701128237.402315^]1318:5:false!1282:   ÅÄ      g1vfwmrmnet   ¿    
+K awsonlyfwgtmakadns¿¿,     < %"naawsonly-east-digital-dual-active¿4¿O     < & eìˆßœV+∆¿O     < & eìˆç±xâ/Õá¿O     < & eìˆ mNMÉÂè§¿O     < & eìˆM^´íTÀlW¿O     < & eìˆ^<Và
+rp¿O     < & eìˆ5tOUﬂœ¿O     < & eìˆ∞√dhÍ±ìL¿O     < & eìˆQ&kÍ∂sì¿O     < & eìˆÇ†ﬂégÍnr¿O     < & eìˆÓs’ö@m¬¿O     < & eìˆn6={ﬂµg¿O     < & eìˆ –’,Sq˙¿O     < & eìˆ+≠œ{{Ø¿O     < & eìˆã”H
+9’6¿O     < & eìˆ?◊»„À⁄_È¿O     < & eìˆu‹Ï ¶íQ¿O     < & eìˆá)DÒuhπ¿O     < & eìˆHc„∫ÚU⁄¿O     < & eìˆ1æÍÓåüË¿O     < & eìˆ Lﬁ™ëZÖƒ¿O     < & eìˆñXPg6~¿O     < & eìˆm∞O¨º—¿O     < & eìˆv‚Ë$¥Te»¿O     < & eìˆaê‚¡Å‚¿O     < & eìˆÇƒégGÜV¿O     < & eìˆ tuy-C¿O     < & eìˆ	nU ø6ﬂ\¿O     < & eìˆ b5Ñu&iX≈¿O     < & eìˆ∫¯ &ø¶¿O     < & eìˆx‰›ƒ‡ÉÅ¶  )   Ä 9 5                                                                                                                                                                                                                                                                                                                     ,18:1701128237.4465861^]974:5:false!940:‘ ÅÄ     febrareru   ¿     & πâÎ	  )   Ä ù ô                                                                                                                                                                                                                                                                                                                                                                                                                         ‘ ÅÄ     interactiveforthnetgr   ¿    ≠     )   Ä ê å                                                                                                                                                                                                                                                                                                                                                                                                            ,17:1701128237.463279^]163:4:true!130: Ä        kingtoonslnkkr     )    Ä  S  O                                                                               ,17:1701128237.486611^]164:4:true!130: Ä        	marketingnetbrillende     )    Ä  K  G                                                                       ,18:1701128237.5134609^]163:4:true!130: Ä        	marketingnetbrillende     )    Ä  K  G                                                                       ,17:1701128237.515424^]504:5:false!470:‘ ÅÄ     kingtoonslnkkr   ¿     2 1˜‹Ü  )   Ä ó ì                                                                                                                                                                                                                                                                                                                                                                                                                   ,17:1701128237.527362^]974:5:false!940:‘ ÅÄ     	marketingnetbrillende   ¿     # tr-brillen-deaffexorg ¿6     è 'traefik-productionsecure-trafficcom ¿[    Û "MOB  )   Ä 7 3                                                                                                                                                                                                                                                                                                                   ‘ ÅÄ    	marketingnetbrillende   ¿     # tr-brillen-deaffexorg ¿6     è 'traefik-productionsecure-trafficcom ¿n     :nsudag¿"
+hostmasterunited-domains¿"xï{Ç  *0   	:Ä    )   Ä   ˝                                                                                                                                                                                                                                                             ,17:1701128237.551965^]164:4:true!130: Ä        pay4results24eu     )    Ä  S  O                                                                               ,18:1701128237.5628428^]504:5:false!470:‘ ÅÄ     g1vfwmrmnet   ¿    
+ awsonlyfwgtmakadns¿¿,     < %"naawsonly-east-digital-dual-active¿4¿O     < ê2ç¿O     < ê2ê¿O     < ê2Ö¿O     < ê2ó¿O     < ê2Ñ¿O     < ê2ë¿O     < ê2ô¿O     < ê2á¿O     < ê2ö¿O     < ê2ò¿O     < ê2è¿O     < ê2õ¿O     < ê2Ü¿O     < ê2é¿O     < ê2É  )   Ä  e  a                                                                                                 ,17:1701128237.566536^]505:5:false!470:‘ ÅÄ     pay4results24eu   ¿      43¥ƒ¿      "¯±D¿      4”~Ø  )   Ä w s                                                                                                                                                                                                                                                                                                                                                                                   ,18:1701128237.6015942^]163:4:true!130: Ä         telegramme     )    Ä  X  T                                                                                    ,17:1701128237.618077^]163:4:true!130: Ä        topmailru     )    Ä  X  T                                                                                    ,17:1701128237.643328^]505:5:false!470:‘  ÅÄ     telegramme   ¿     N ïößc  )   Ä ú ò                                                                                                                                                                                                                                                                                                                                                                                                                        ,18:1701128237.6523688^]163:4:true!130: Ä        wwwclickaducom     )    Ä  S  O                                                                               ,17:1701128237.654946^]163:4:true!130: Ä        wwwclickaducom     )    Ä  S  O                                                                               ,17:1701128237.661508^]164:4:true!130: Ä        wwweisde     )    Ä  Y  U                                                                                     ,18:1701128237.6688352^]503:5:false!470:‘ ÅÄ     topmailru   ¿      'ns1¿
+hostmaster¿–&W  Ñ  Ñ 	:Ä   <  )   Ä y u                                                                                                                                                                                                                                                                                                                                                                                     ,16:1701128237.68441^]504:5:false!470:‘ ÅÄ     wwwclickaducom   ¿      %wwwclickaducomcdn
+cloudflarenet ¿.    , &G        ¨C·¿.    , &G        h€¿.    , &G        h€¿. .   , b   ,efáΩec»ùÜ…
+cloudflarenet √íƒ·‰&$óëgÒs≠,ÆèP=‡>Çö≈0l^∂›ìåw»Ü|§|Çlñˆ9p¨GÜ¸◊ÍÈæmàï¨C·w∞  )   Ä  ¥  ∞                                                                                                                                                                                ,17:1701128237.693869^]504:5:false!470:‘ ÅÄ     wwwclickaducom   ¿      %wwwclickaducomcdn
+cloudflarenet ¿.    , ¨C·¿.    , h€¿.    , h€¿. .   , b   ,efáΩec»ùÜ…
+cloudflarenet $&ƒ•3 8w{á˘ÎKlf∏ebªJhÙåY-ØØ"’oÉL¬UÜ'ı}†oßÏíß’ÈiŒGO C”4)  )   Ä  ÿ  ‘                                                                                                                                                                                                                    ,17:1701128237.704549^]505:5:false!470:‘ ÅÄ     wwweisde   ¿     ‚ wwweisdeedgekeynet ¿(    45 e296g
+akamaiedge¿;¿L      ∆≠Ö  )   Ä Y U                                                                                                                                                                                                                                                                                                                                                     ,18:1701128237.7059898^]]6:backup;0:~17:timestamp_created;17:1701128232.823328^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;6547:3:via;0:~19:timestamp_tcp_setup;16:1701128232.69078^7:address;16:7:8.8.8.8;3:853#]19:timestamp_tls_setup;18:1701128232.8081632^13:timestamp_end;0:~15:timestamp_start;18:1701128232.6429288^3:sni;7:8.8.8.8;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;6043:2102:-----BEGIN CERTIFICATE-----
+MIIF4jCCBMqgAwIBAgIQStNkmdSsfeMK+vBlu0PqSDANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMzEwMjMxMTI1MDlaFw0yNDAxMTUx
+MTI1MDhaMBUxEzARBgNVBAMTCmRucy5nb29nbGUwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCl+5Oq714713kMoOrFjwwsLAUKrMDSZrkMoeG3CtzKekut
+x0xlg6+bv1LntdY1yao9ATYb24oMFvh3MtJElTVKShp86X8QwK2w0cWXgwMis6y0
+re6rx5YUcvQvNB449Zhe3F81pkOsltHRoj7Rj0AIWm1s9wq4iWHETDGV4LAQa/Cg
+CWB9MB45A2i4fH+0bE3QO4o9Vk6sln1ugiy21o0zRXPkCfySmuNmkjW/Z/GPmSPK
+WRXk8PtzqLuF6llZVfNWWtfkDzYJqhG2CoJhevn3v/sPy9MpawTjzbyDxqc/Lkqk
+n7auLgWXebl6suHbF6sjEkDnoInztduBHZZxSWYLAgMBAAGjggL7MIIC9zAOBgNV
+HQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAd
+BgNVHQ4EFgQURSloLmSjcbDDKQlJy2Ij5HDLjS0wHwYDVR0jBBgwFoAUinR/r4XN
+7pXNPZzQ4kYU83E1HScwagYIKwYBBQUHAQEEXjBcMCcGCCsGAQUFBzABhhtodHRw
+Oi8vb2NzcC5wa2kuZ29vZy9ndHMxYzMwMQYIKwYBBQUHMAKGJWh0dHA6Ly9wa2ku
+Z29vZy9yZXBvL2NlcnRzL2d0czFjMy5kZXIwgawGA1UdEQSBpDCBoYIKZG5zLmdv
+b2dsZYIOZG5zLmdvb2dsZS5jb22CECouZG5zLmdvb2dsZS5jb22CCzg4ODguZ29v
+Z2xlghBkbnM2NC5kbnMuZ29vZ2xlhwQICAgIhwQICAQEhxAgAUhgSGAAAAAAAAAA
+AIiIhxAgAUhgSGAAAAAAAAAAAIhEhxAgAUhgSGAAAAAAAAAAAGRkhxAgAUhgSGAA
+AAAAAAAAAABkMCEGA1UdIAQaMBgwCAYGZ4EMAQIBMAwGCisGAQQB1nkCBQMwPAYD
+VR0fBDUwMzAxoC+gLYYraHR0cDovL2NybHMucGtpLmdvb2cvZ3RzMWMzL2ZWSnhi
+Vi1LdG1rLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB1AHb/iD8KtvuVUcJh
+zPWHujS0pM27KdxoQgqf5mdMWjp0AAABi1x/BO4AAAQDAEYwRAIgKvZdzn47t9gr
+4a03NbNRUBdm8t+djQBSOVkRXqdKHVkCIB8dzreaOd7S3cnkf5jOgusYFh155PJN
+8moLc2YE0eWZAHcASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGL
+XH8E4gAABAMASDBGAiEAishnkaOfCBhBUZojqYoPykV+Ty0CUoYJhKMiH+Nnsk0C
+IQDpTr7Wx2eeCU22dFWlgSkwoXSknLaMoF8Nk8p5/+PjYjANBgkqhkiG9w0BAQsF
+AAOCAQEASovepYIfDWIX01EYRX1rzZjexWGcEZ3SQf0M3oYblrdioJsO8PjnTaNP
+V8B2IOecJ8WoI56ONo+9lhaXlJqW7frGAP3aJGeUzT+J+FIrnBdf9R9exjMIXbnn
+3OJXoqSKnEKaYSbKBcjKfyy91xI0z0DXcE3w3NOlSP2j8YX0C0vZ3mxDPwgBi69s
+qU7JJ4/h35WroD8SYu6R33raJHLC/0kXHdSbauyN+MQzNoW8ZDLEzdlj0/EvSccW
+gdyVei9ZQxOdr6X+cstbJmEINAYOp9ByggolJEAUbkw8DAc7r7APkK+Xw4ibzPvT
+r3nxsBaPncqWzxCvgFvQ6KDkAc9nAA==
+-----END CERTIFICATE-----
+,1996:-----BEGIN CERTIFICATE-----
+MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
+CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
+MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
+MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
+Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
+kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
+lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
+BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
+gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
+tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
+DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
+AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
+VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
+CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
+AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
+MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
+A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
+aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
+AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
+cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
+RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
++o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
+PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
+lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
+Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
+z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
+AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
+juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
+1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
+-----END CERTIFICATE-----
+,1927:-----BEGIN CERTIFICATE-----
+MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
+MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
+CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
+OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
+GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
+ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
+iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
+KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
+DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
+j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
+cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
+CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
+iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
+Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
+9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
+BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
+BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
+JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
+MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
+oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
+MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
+AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
+NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
+WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
+9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
++qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
+d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:15627787-3a2b-4ed3-b0c2-0fd6647b00dc;8:sockname;25:13:192.168.0.159;5:64835#]8:peername;16:7:8.8.8.8;3:853#]}11:client_conn;455:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1701128232.822919^13:timestamp_end;0:~15:timestamp_start;16:1701128232.63426^3:sni;0:~11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:1286a8ce-2842-497a-9b43-1ddca448fcaf;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64834#]}5:error;0:~2:id;36:6b2a10b3-c645-491c-8f81-3c3deb1119c9;4:type;3:tcp;7:version;2:20#}1830:9:websocket;0:~8:response;432:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128278.036675^15:timestamp_start;17:1701128278.036526^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c08::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;259:4:path;0:,9:authority;28:[2607:f8b0:4002:c08::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c08::5f;13:timestamp_end;0:~15:timestamp_start;18:1701128278.0350451^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;16:1701128278.03541^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c08::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.036273^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:55c7ea51-1aa8-4e95-b0c6-334ac5bdbaf0;8:sockname;0:~8:peername;0:~}11:client_conn;409:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.033354^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:cff37f55-9c6b-4fb9-bf57-cd442780995f;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64945#]}5:error;0:~2:id;36:a990b5c9-bcf3-411a-b7cd-1ca5edf096da;4:type;4:http;7:version;2:20#}1830:9:websocket;0:~8:response;432:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128278.052064^15:timestamp_start;17:1701128278.051991^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c05::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;258:4:path;0:,9:authority;28:[2607:f8b0:4002:c05::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c05::5f;13:timestamp_end;0:~15:timestamp_start;17:1701128278.043068^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128278.043319^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c05::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.051809^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:f0837eda-6105-4bde-8247-99864aff8e4c;8:sockname;0:~8:peername;0:~}11:client_conn;409:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.041022^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:b51b7020-e474-4126-8505-9c6400625af7;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64947#]}5:error;0:~2:id;36:8a2565d3-2b85-441e-8270-394661cca494;4:type;4:http;7:version;2:20#}1828:9:websocket;0:~8:response;432:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128278.056107^15:timestamp_start;17:1701128278.056052^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c03::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;256:4:path;0:,9:authority;28:[2607:f8b0:4002:c03::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c03::5f;13:timestamp_end;0:~15:timestamp_start;15:1701128278.0554^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;17:1701128278.055475^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;429:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c03::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.055941^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:1827d879-8bc3-4c9f-bb63-47a6f77fed80;8:sockname;0:~8:peername;0:~}11:client_conn;409:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.054871^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:ca81ef53-cb73-417e-9336-06274acc4749;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64949#]}5:error;0:~2:id;36:e4c66901-9e7a-405c-a833-ed70087f272e;4:type;4:http;7:version;2:20#}1828:9:websocket;0:~8:response;433:6:reason;11:Bad Gateway,11:status_code;3:502#13:timestamp_end;17:1701128278.060873^15:timestamp_start;18:1701128278.0608041^8:trailers;0:~7:content;211:Cannot connect to [2607:f8b0:4002:c09::5f]:443: [Errno 65] No route to host If you plan to redirect requests away from this server, consider setting `connection_strategy` to `lazy` to suppress early connections.,7:headers;28:24:14:content-length,3:211,]]12:http_version;8:HTTP/1.1,}7:request;258:4:path;0:,9:authority;28:[2607:f8b0:4002:c09::5f]:443,6:scheme;0:,6:method;7:CONNECT,4:port;3:443#4:host;22:2607:f8b0:4002:c09::5f;13:timestamp_end;0:~15:timestamp_start;17:1701128278.060124^8:trailers;0:~7:content;0:~7:headers;0:]12:http_version;8:HTTP/1.1,}6:backup;0:~17:timestamp_created;15:1701128278.0602^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;428:3:via;0:~19:timestamp_tcp_setup;0:~7:address;32:22:2607:f8b0:4002:c09::5f;3:443#]19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;16:1701128278.06068^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;27:[Errno 65] No route to host;18:transport_protocol;3:tcp;2:id;36:5a6247c3-d3a4-498d-8102-9728bf359b49;8:sockname;0:~8:peername;0:~}11:client_conn;409:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;0:~13:timestamp_end;0:~15:timestamp_start;17:1701128278.059587^3:sni;0:~11:tls_version;0:~11:cipher_list;0:]6:cipher;0:~11:alpn_offers;0:]4:alpn;0:~16:certificate_list;0:]3:tls;5:false!5:error;0:~18:transport_protocol;3:tcp;2:id;36:0aab8a7e-5f59-41ad-8714-b9d0cefa7f27;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64951#]}5:error;0:~2:id;36:0c71297a-2678-4ddd-8ca5-6062251c64f7;4:type;4:http;7:version;2:20#}8589:8:messages;1315:163:4:true!130: Ä        wwwfacebookcom     )    Ä  S  O                                                                               ,17:1701128260.393922^]163:4:true!130: Ä         wwwfacebookcom     )    Ä  S  O                                                                               ,17:1701128260.394374^]974:5:false!940:‘  ÅÄ     wwwfacebookcom   ¿    ™ 	star-minic10r¿¿.      C#  )   Ä z v                                                                                                                                                                                                                                                                                                                                                                                      ‘ ÅÄ     wwwfacebookcom   ¿    ™ 	star-minic10r¿¿.      *(ÄÒ, É˙Œ∞  %ﬁ  )   Ä n j                                                                                                                                                                                                                                                                                                                                                                          ,17:1701128260.431701^]]6:backup;0:~17:timestamp_created;17:1701128260.393043^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;6545:3:via;0:~19:timestamp_tcp_setup;17:1701128260.319724^7:address;16:7:8.8.8.8;3:853#]19:timestamp_tls_setup;17:1701128260.381886^13:timestamp_end;0:~15:timestamp_start;16:1701128260.28143^3:sni;7:8.8.8.8;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;6043:2102:-----BEGIN CERTIFICATE-----
+MIIF4jCCBMqgAwIBAgIQStNkmdSsfeMK+vBlu0PqSDANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMzEwMjMxMTI1MDlaFw0yNDAxMTUx
+MTI1MDhaMBUxEzARBgNVBAMTCmRucy5nb29nbGUwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCl+5Oq714713kMoOrFjwwsLAUKrMDSZrkMoeG3CtzKekut
+x0xlg6+bv1LntdY1yao9ATYb24oMFvh3MtJElTVKShp86X8QwK2w0cWXgwMis6y0
+re6rx5YUcvQvNB449Zhe3F81pkOsltHRoj7Rj0AIWm1s9wq4iWHETDGV4LAQa/Cg
+CWB9MB45A2i4fH+0bE3QO4o9Vk6sln1ugiy21o0zRXPkCfySmuNmkjW/Z/GPmSPK
+WRXk8PtzqLuF6llZVfNWWtfkDzYJqhG2CoJhevn3v/sPy9MpawTjzbyDxqc/Lkqk
+n7auLgWXebl6suHbF6sjEkDnoInztduBHZZxSWYLAgMBAAGjggL7MIIC9zAOBgNV
+HQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAd
+BgNVHQ4EFgQURSloLmSjcbDDKQlJy2Ij5HDLjS0wHwYDVR0jBBgwFoAUinR/r4XN
+7pXNPZzQ4kYU83E1HScwagYIKwYBBQUHAQEEXjBcMCcGCCsGAQUFBzABhhtodHRw
+Oi8vb2NzcC5wa2kuZ29vZy9ndHMxYzMwMQYIKwYBBQUHMAKGJWh0dHA6Ly9wa2ku
+Z29vZy9yZXBvL2NlcnRzL2d0czFjMy5kZXIwgawGA1UdEQSBpDCBoYIKZG5zLmdv
+b2dsZYIOZG5zLmdvb2dsZS5jb22CECouZG5zLmdvb2dsZS5jb22CCzg4ODguZ29v
+Z2xlghBkbnM2NC5kbnMuZ29vZ2xlhwQICAgIhwQICAQEhxAgAUhgSGAAAAAAAAAA
+AIiIhxAgAUhgSGAAAAAAAAAAAIhEhxAgAUhgSGAAAAAAAAAAAGRkhxAgAUhgSGAA
+AAAAAAAAAABkMCEGA1UdIAQaMBgwCAYGZ4EMAQIBMAwGCisGAQQB1nkCBQMwPAYD
+VR0fBDUwMzAxoC+gLYYraHR0cDovL2NybHMucGtpLmdvb2cvZ3RzMWMzL2ZWSnhi
+Vi1LdG1rLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB1AHb/iD8KtvuVUcJh
+zPWHujS0pM27KdxoQgqf5mdMWjp0AAABi1x/BO4AAAQDAEYwRAIgKvZdzn47t9gr
+4a03NbNRUBdm8t+djQBSOVkRXqdKHVkCIB8dzreaOd7S3cnkf5jOgusYFh155PJN
+8moLc2YE0eWZAHcASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGL
+XH8E4gAABAMASDBGAiEAishnkaOfCBhBUZojqYoPykV+Ty0CUoYJhKMiH+Nnsk0C
+IQDpTr7Wx2eeCU22dFWlgSkwoXSknLaMoF8Nk8p5/+PjYjANBgkqhkiG9w0BAQsF
+AAOCAQEASovepYIfDWIX01EYRX1rzZjexWGcEZ3SQf0M3oYblrdioJsO8PjnTaNP
+V8B2IOecJ8WoI56ONo+9lhaXlJqW7frGAP3aJGeUzT+J+FIrnBdf9R9exjMIXbnn
+3OJXoqSKnEKaYSbKBcjKfyy91xI0z0DXcE3w3NOlSP2j8YX0C0vZ3mxDPwgBi69s
+qU7JJ4/h35WroD8SYu6R33raJHLC/0kXHdSbauyN+MQzNoW8ZDLEzdlj0/EvSccW
+gdyVei9ZQxOdr6X+cstbJmEINAYOp9ByggolJEAUbkw8DAc7r7APkK+Xw4ibzPvT
+r3nxsBaPncqWzxCvgFvQ6KDkAc9nAA==
+-----END CERTIFICATE-----
+,1996:-----BEGIN CERTIFICATE-----
+MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
+CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
+MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
+MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
+Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
+kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
+lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
+BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
+gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
+tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
+DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
+AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
+VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
+CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
+AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
+MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
+A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
+aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
+AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
+cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
+RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
++o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
+PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
+lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
+Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
+z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
+AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
+juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
+1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
+-----END CERTIFICATE-----
+,1927:-----BEGIN CERTIFICATE-----
+MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
+MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
+CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
+OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
+GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
+ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
+iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
+KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
+DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
+j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
+cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
+CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
+iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
+Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
+9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
+BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
+BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
+JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
+MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
+oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
+MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
+AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
+NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
+WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
+9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
++qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
+d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:70d257a5-9014-44cc-b57b-480d745b9620;8:sockname;25:13:192.168.0.159;5:64905#]8:peername;16:7:8.8.8.8;3:853#]}11:client_conn;456:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;17:1701128260.392429^13:timestamp_end;0:~15:timestamp_start;17:1701128260.275136^3:sni;0:~11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:2cc0986e-02be-4f6f-aec0-8b611446c873;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64904#]}5:error;0:~2:id;36:6ff40ac7-0814-4664-baa8-61167c317beb;4:type;3:tcp;7:version;2:20#}7952:8:messages;677:163:4:true!130: Ä         www	pinterestcom     )    Ä  R  N                                                                              ,17:1701128289.488599^]504:5:false!470:‘  ÅÄ     www	pinterestcom   ¿    
+ü www-pinterest-comgslb¿¿/       2-01-37d2-0018cdxcedexisnet ¿T     ¶ www	pinterestcomedgekey¿o¿Ä    0P e6449a
+akamaiedge¿o¿®      ’$À  )   Ä  ¸  ¯                                                                                                                                                                                                                                                        ,17:1701128289.526699^]]6:backup;0:~17:timestamp_created;17:1701128289.486847^7:comment;0:;8:metadata;0:}6:marked;0:;9:is_replay;0:~11:intercepted;5:false!11:server_conn;6546:3:via;0:~19:timestamp_tcp_setup;17:1701128289.412129^7:address;16:7:8.8.8.8;3:853#]19:timestamp_tls_setup;17:1701128289.468818^13:timestamp_end;0:~15:timestamp_start;17:1701128289.367192^3:sni;7:8.8.8.8;11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;6043:2102:-----BEGIN CERTIFICATE-----
+MIIF4jCCBMqgAwIBAgIQStNkmdSsfeMK+vBlu0PqSDANBgkqhkiG9w0BAQsFADBG
+MQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExM
+QzETMBEGA1UEAxMKR1RTIENBIDFDMzAeFw0yMzEwMjMxMTI1MDlaFw0yNDAxMTUx
+MTI1MDhaMBUxEzARBgNVBAMTCmRucy5nb29nbGUwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCl+5Oq714713kMoOrFjwwsLAUKrMDSZrkMoeG3CtzKekut
+x0xlg6+bv1LntdY1yao9ATYb24oMFvh3MtJElTVKShp86X8QwK2w0cWXgwMis6y0
+re6rx5YUcvQvNB449Zhe3F81pkOsltHRoj7Rj0AIWm1s9wq4iWHETDGV4LAQa/Cg
+CWB9MB45A2i4fH+0bE3QO4o9Vk6sln1ugiy21o0zRXPkCfySmuNmkjW/Z/GPmSPK
+WRXk8PtzqLuF6llZVfNWWtfkDzYJqhG2CoJhevn3v/sPy9MpawTjzbyDxqc/Lkqk
+n7auLgWXebl6suHbF6sjEkDnoInztduBHZZxSWYLAgMBAAGjggL7MIIC9zAOBgNV
+HQ8BAf8EBAMCBaAwEwYDVR0lBAwwCgYIKwYBBQUHAwEwDAYDVR0TAQH/BAIwADAd
+BgNVHQ4EFgQURSloLmSjcbDDKQlJy2Ij5HDLjS0wHwYDVR0jBBgwFoAUinR/r4XN
+7pXNPZzQ4kYU83E1HScwagYIKwYBBQUHAQEEXjBcMCcGCCsGAQUFBzABhhtodHRw
+Oi8vb2NzcC5wa2kuZ29vZy9ndHMxYzMwMQYIKwYBBQUHMAKGJWh0dHA6Ly9wa2ku
+Z29vZy9yZXBvL2NlcnRzL2d0czFjMy5kZXIwgawGA1UdEQSBpDCBoYIKZG5zLmdv
+b2dsZYIOZG5zLmdvb2dsZS5jb22CECouZG5zLmdvb2dsZS5jb22CCzg4ODguZ29v
+Z2xlghBkbnM2NC5kbnMuZ29vZ2xlhwQICAgIhwQICAQEhxAgAUhgSGAAAAAAAAAA
+AIiIhxAgAUhgSGAAAAAAAAAAAIhEhxAgAUhgSGAAAAAAAAAAAGRkhxAgAUhgSGAA
+AAAAAAAAAABkMCEGA1UdIAQaMBgwCAYGZ4EMAQIBMAwGCisGAQQB1nkCBQMwPAYD
+VR0fBDUwMzAxoC+gLYYraHR0cDovL2NybHMucGtpLmdvb2cvZ3RzMWMzL2ZWSnhi
+Vi1LdG1rLmNybDCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB1AHb/iD8KtvuVUcJh
+zPWHujS0pM27KdxoQgqf5mdMWjp0AAABi1x/BO4AAAQDAEYwRAIgKvZdzn47t9gr
+4a03NbNRUBdm8t+djQBSOVkRXqdKHVkCIB8dzreaOd7S3cnkf5jOgusYFh155PJN
+8moLc2YE0eWZAHcASLDja9qmRzQP5WoC+p0w6xxSActW3SyB2bu/qznYhHMAAAGL
+XH8E4gAABAMASDBGAiEAishnkaOfCBhBUZojqYoPykV+Ty0CUoYJhKMiH+Nnsk0C
+IQDpTr7Wx2eeCU22dFWlgSkwoXSknLaMoF8Nk8p5/+PjYjANBgkqhkiG9w0BAQsF
+AAOCAQEASovepYIfDWIX01EYRX1rzZjexWGcEZ3SQf0M3oYblrdioJsO8PjnTaNP
+V8B2IOecJ8WoI56ONo+9lhaXlJqW7frGAP3aJGeUzT+J+FIrnBdf9R9exjMIXbnn
+3OJXoqSKnEKaYSbKBcjKfyy91xI0z0DXcE3w3NOlSP2j8YX0C0vZ3mxDPwgBi69s
+qU7JJ4/h35WroD8SYu6R33raJHLC/0kXHdSbauyN+MQzNoW8ZDLEzdlj0/EvSccW
+gdyVei9ZQxOdr6X+cstbJmEINAYOp9ByggolJEAUbkw8DAc7r7APkK+Xw4ibzPvT
+r3nxsBaPncqWzxCvgFvQ6KDkAc9nAA==
+-----END CERTIFICATE-----
+,1996:-----BEGIN CERTIFICATE-----
+MIIFljCCA36gAwIBAgINAgO8U1lrNMcY9QFQZjANBgkqhkiG9w0BAQsFADBHMQsw
+CQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZpY2VzIExMQzEU
+MBIGA1UEAxMLR1RTIFJvb3QgUjEwHhcNMjAwODEzMDAwMDQyWhcNMjcwOTMwMDAw
+MDQyWjBGMQswCQYDVQQGEwJVUzEiMCAGA1UEChMZR29vZ2xlIFRydXN0IFNlcnZp
+Y2VzIExMQzETMBEGA1UEAxMKR1RTIENBIDFDMzCCASIwDQYJKoZIhvcNAQEBBQAD
+ggEPADCCAQoCggEBAPWI3+dijB43+DdCkH9sh9D7ZYIl/ejLa6T/belaI+KZ9hzp
+kgOZE3wJCor6QtZeViSqejOEH9Hpabu5dOxXTGZok3c3VVP+ORBNtzS7XyV3NzsX
+lOo85Z3VvMO0Q+sup0fvsEQRY9i0QYXdQTBIkxu/t/bgRQIh4JZCF8/ZK2VWNAcm
+BA2o/X3KLu/qSHw3TT8An4Pf73WELnlXXPxXbhqW//yMmqaZviXZf5YsBvcRKgKA
+gOtjGDxQSYflispfGStZloEAoPtR28p3CwvJlk/vcEnHXG0g/Zm0tOLKLnf9LdwL
+tmsTDIwZKxeWmLnwi/agJ7u2441Rj72ux5uxiZ0CAwEAAaOCAYAwggF8MA4GA1Ud
+DwEB/wQEAwIBhjAdBgNVHSUEFjAUBggrBgEFBQcDAQYIKwYBBQUHAwIwEgYDVR0T
+AQH/BAgwBgEB/wIBADAdBgNVHQ4EFgQUinR/r4XN7pXNPZzQ4kYU83E1HScwHwYD
+VR0jBBgwFoAU5K8rJnEaK0gnhS9SZizv8IkTcT4waAYIKwYBBQUHAQEEXDBaMCYG
+CCsGAQUFBzABhhpodHRwOi8vb2NzcC5wa2kuZ29vZy9ndHNyMTAwBggrBgEFBQcw
+AoYkaHR0cDovL3BraS5nb29nL3JlcG8vY2VydHMvZ3RzcjEuZGVyMDQGA1UdHwQt
+MCswKaAnoCWGI2h0dHA6Ly9jcmwucGtpLmdvb2cvZ3RzcjEvZ3RzcjEuY3JsMFcG
+A1UdIARQME4wOAYKKwYBBAHWeQIFAzAqMCgGCCsGAQUFBwIBFhxodHRwczovL3Br
+aS5nb29nL3JlcG9zaXRvcnkvMAgGBmeBDAECATAIBgZngQwBAgIwDQYJKoZIhvcN
+AQELBQADggIBAIl9rCBcDDy+mqhXlRu0rvqrpXJxtDaV/d9AEQNMwkYUuxQkq/BQ
+cSLbrcRuf8/xam/IgxvYzolfh2yHuKkMo5uhYpSTld9brmYZCwKWnvy15xBpPnrL
+RklfRuFBsdeYTWU0AIAaP0+fbH9JAIFTQaSSIYKCGvGjRFsqUBITTcFTNvNCCK9U
++o53UxtkOCcXCb1YyRt8OS1b887U7ZfbFAO/CVMkH8IMBHmYJvJh8VNS/UKMG2Yr
+PxWhu//2m+OBmgEGcYk1KCTd4b3rGS3hSMs9WYNRtHTGnXzGsYZbr8w0xNPM1IER
+lQCh9BIiAfq0g3GvjLeMcySsN1PCAJA/Ef5c7TaUEDu9Ka7ixzpiO2xj2YC/WXGs
+Yye5TBeg2vZzFb8q3o/zpWwygTMD0IZRcZk0upONXbVRWPeyk+gB9lm+cZv9TSjO
+z23HFtz30dZGm6fKa+l3D/2gthsjgx0QGtkJAITgRNOidSOzNIb2ILCkXhAd4FJG
+AJ2xDx8hcFH1mt0G/FX0Kw4zd8NLQsLxdxP8c4CU6x+7Nz/OAipmsHMdMqUybDKw
+juDEI/9bfU1lcKwrmz3O2+BtjjKAvpafkmO8l7tdufThcV4q5O8DIrGKZTqPwJNl
+1IXNDw9bg1kWRxYtnCQ6yICmJhSFm/Y3m6xv+cXDBlHz4n/FsRC6UfTd
+-----END CERTIFICATE-----
+,1927:-----BEGIN CERTIFICATE-----
+MIIFYjCCBEqgAwIBAgIQd70NbNs2+RrqIQ/E8FjTDTANBgkqhkiG9w0BAQsFADBX
+MQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEQMA4GA1UE
+CxMHUm9vdCBDQTEbMBkGA1UEAxMSR2xvYmFsU2lnbiBSb290IENBMB4XDTIwMDYx
+OTAwMDA0MloXDTI4MDEyODAwMDA0MlowRzELMAkGA1UEBhMCVVMxIjAgBgNVBAoT
+GUdvb2dsZSBUcnVzdCBTZXJ2aWNlcyBMTEMxFDASBgNVBAMTC0dUUyBSb290IFIx
+MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAthECix7joXebO9y/lD63
+ladAPKH9gvl9MgaCcfb2jH/76Nu8ai6Xl6OMS/kr9rH5zoQdsfnFl97vufKj6bwS
+iV6nqlKr+CMny6SxnGPb15l+8Ape62im9MZaRw1NEDPjTrETo8gYbEvs/AmQ351k
+KSUjB6G00j0uYODP0gmHu81I8E3CwnqIiru6z1kZ1q+PsAewnjHxgsHA3y6mbWwZ
+DrXYfiYaRQM9sHmklCitD38m5agI/pboPGiUU+6DOogrFZYJsuB6jC511pzrp1Zk
+j5ZPaK49l8KEj8C8QMALXL32h7M1bKwYUH+E4EzNktMg6TO8UpmvMrUpsyUqtEj5
+cuHKZPfmghCN6J3Cioj6OGaK/GP5Afl4/Xtcd/p2h/rs37EOeZVXtL0m79YB0esW
+CruOC7XFxYpVq9Os6pFLKcwZpDIlTirxZUTQAs6qzkm06p98g7BAe+dDq6dso499
+iYH6TKX/1Y7DzkvgtdizjkXPdsDtQCv9Uw+wp9U7DbGKogPeMa3Md+pvez7W35Ei
+Eua++tgy/BBjFFFy3l3WFpO9KWgz7zpm7AeKJt8T11dleCfeXkkUAKIAf5qoIbap
+sZWwpbkNFhHax2xIPEDgfg1azVY80ZcFuctL7TlLnMQ/0lUTbiSw1nH69MG6zO0b
+9f6BQdgAmD06yK56mDcYBZUCAwEAAaOCATgwggE0MA4GA1UdDwEB/wQEAwIBhjAP
+BgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBTkrysmcRorSCeFL1JmLO/wiRNxPjAf
+BgNVHSMEGDAWgBRge2YaRQ2XyolQL30EzTSo//z9SzBgBggrBgEFBQcBAQRUMFIw
+JQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnBraS5nb29nL2dzcjEwKQYIKwYBBQUH
+MAKGHWh0dHA6Ly9wa2kuZ29vZy9nc3IxL2dzcjEuY3J0MDIGA1UdHwQrMCkwJ6Al
+oCOGIWh0dHA6Ly9jcmwucGtpLmdvb2cvZ3NyMS9nc3IxLmNybDA7BgNVHSAENDAy
+MAgGBmeBDAECATAIBgZngQwBAgIwDQYLKwYBBAHWeQIFAwIwDQYLKwYBBAHWeQIF
+AwMwDQYJKoZIhvcNAQELBQADggEBADSkHrEoo9C0dhemMXoh6dFSPsjbdBZBiLg9
+NR3t5P+T4Vxfq7vqfM/b5A3Ri1fyJm9bvhdGaJQ3b2t6yMAYN/olUazsaL+yyEn9
+WprKASOshIArAoyZl+tJaox118fessmXn1hIVw41oeQa1v1vg4Fv74zPl6/AhSrw
+9U5pCZEt4Wi4wStz6dTZ/CLANx8LZh1J7QJVj2fhMtfTJr9w4z30Z209fOU0iOMy
++qduBmpvvYuR7hZL6Dupszfnw0Skfths18dG9ZKb59UhvmaSGZRVbNQpsg3BZlvi
+d0lIKO2d1xozclOzgjXPYovJJIultzkMu34qQb9Sz/yilrbCgj8=
+-----END CERTIFICATE-----
+,]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:77348b09-bfab-4a97-85a6-d367b9fb85be;8:sockname;25:13:192.168.0.159;5:64965#]8:peername;16:7:8.8.8.8;3:853#]}11:client_conn;457:10:proxy_mode;7:regular;8:mitmcert;0:~19:timestamp_tls_setup;18:1701128289.4845288^13:timestamp_end;0:~15:timestamp_start;17:1701128289.361093^3:sni;0:~11:tls_version;7:TLSv1.3;11:cipher_list;0:]6:cipher;22:TLS_AES_256_GCM_SHA384;11:alpn_offers;0:]4:alpn;0:,16:certificate_list;0:]3:tls;4:true!5:error;0:~18:transport_protocol;3:tcp;2:id;36:8c03f072-905d-48d4-b17c-1c009b40f777;8:sockname;24:13:192.168.0.159;4:8083#]8:peername;25:13:192.168.0.159;5:64964#]}5:error;0:~2:id;36:3606734b-0917-4b77-9dc0-30b84196bc30;4:type;3:tcp;7:version;2:20#}
