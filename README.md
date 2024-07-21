@@ -64,7 +64,7 @@ We welcome contributions from the community! If you have suggestions, bug report
 
 ## Acknowledgments
 
-- This project was done in collaboration with [Shiva-Kalyan](https://github.com/kalyanshiva1998).
+- This project was done in collaboration with [Shiva-Kalyan](https://github.com/kalyan1998).
 - [mitmproxy](https://mitmproxy.org/)
 - [Python](https://www.python.org/)
 
